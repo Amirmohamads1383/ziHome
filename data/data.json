@@ -1,0 +1,619 @@
+[
+    {
+        "id": 1,
+        "title": "یخچال ساید بای ساید سامسونگ ۲۴ فوت",
+        "price": 48500000,
+        "category": "refrigerator",
+        "categorypersian": "یخچال و فریزر",
+        "images": [
+            "/image/product/ref-1.webp",
+            "/image/product/ref-1-1.webp"
+        ],
+        "discountPercent": 12,
+        "rate": 4.7
+    },
+    {
+        "id": 2,
+        "title": "ماشین لباسشویی ۱۲ کیلویی ال جی با درب جلو",
+        "price": 28900000,
+        "category": "washing_machine",
+        "categorypersian": "ماشین لباسشویی",
+        "images": [
+            "/image/product/wash-2.webp",
+            "/image/product/wash-2-1.webp",
+            "/image/product/wash-2-2.webp",
+            "/image/product/wash-2-3.webp",
+            "/image/product/wash-2-4.webp",
+            "/image/product/wash-2-5.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.9
+    },
+    {
+        "id": 3,
+        "title": "جاروبرقی رباتیک شیائومی مدل S10",
+        "price": 18300000,
+        "category": "vacuum",
+        "categorypersian": "جاروبرقی",
+        "images": [
+            "/image/product/vac-3.webp",
+            "/image/product/vac-3-1.webp",
+            "/image/product/vac-3-2.webp"
+        ],
+        "discountPercent": 20,
+        "rate": 4.5
+    },
+    {
+        "id": 4,
+        "title": "مایکروویو پاناسونیک ۳۲ لیتری",
+        "price": 12700000,
+        "category": "microwave",
+        "categorypersian": "مایکروویو و سولاردام",
+        "images": [
+            "/image/product/micro-4.webp",
+            "/image/product/micro-4-1.webp",
+            "/image/product/micro-4-2.webp"
+        ],
+        "discountPercent": 5,
+        "rate": 4.3
+    },
+    {
+        "id": 5,
+        "title": "قهوه‌ساز اسپرسو دلونگی اتوماتیک",
+        "price": 22400000,
+        "category": "coffee_maker",
+        "categorypersian": "قهوه‌ساز",
+        "images": [
+            "/image/product/coffee-5.webp",
+            "/image/product/coffee-5-1.webp",
+            "/image/product/coffee-5-2.webp"
+        ],
+        "discountPercent": 15,
+        "rate": 4.8
+    },
+    {
+        "id": 6,
+        "title": "اتو بخار تفلن مدل حرفه‌ای",
+        "price": 3450000,
+        "category": "iron",
+        "categorypersian": "اتو و بخارپز",
+        "images": [
+            "/image/product/iron-6.webp",
+            "/image/product/iron-6-1.webp"
+        ],
+        "discountPercent": 25,
+        "rate": 4.1
+    },
+    {
+        "id": 7,
+        "title": "آبگرمکن دیواری بوتان ۱۸ لیتری",
+        "price": 12500000,
+        "category": "water_heater",
+        "categorypersian": "آبگرمکن",
+        "images": [
+            "/image/product/wh-7.webp",
+            "/image/product/wh-7-1.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.0
+    },
+    {
+        "id": 8,
+        "title": "یخچال فرد دار اسنوا ۱۸ فوت",
+        "price": 24500000,
+        "category": "refrigerator",
+        "categorypersian": "یخچال و فریزر",
+        "images": [
+            "/image/product/ref-8.webp",
+            "/image/product/ref-8-1.webp"
+        ],
+        "discountPercent": 10,
+        "rate": 4.2
+    },
+    {
+        "id": 9,
+        "title": "لباسشویی ۸ کیلویی واشر اسنوا درب بالا",
+        "price": 15800000,
+        "category": "washing_machine",
+        "categorypersian": "ماشین لباسشویی",
+        "images": [
+            "/image/product/wash-9.webp",
+            "/image/product/wash-9-1.webp"
+        ],
+        "discountPercent": 7,
+        "rate": 4.0
+    },
+    {
+        "id": 10,
+        "title": "جاروبرقی تیفال کیسه‌دار ۲۲۰۰ وات",
+        "price": 5650000,
+        "category": "vacuum",
+        "categorypersian": "جاروبرقی",
+        "images": [
+            "/image/product/vac-10.webp",
+            "/image/product/vac-10-1.webp"
+        ],
+        "discountPercent": 18,
+        "rate": 3.9
+    },
+    {
+        "id": 11,
+        "title": "مایکروویو سامسونگ ۲۵ لیتری گریل دار",
+        "price": 9900000,
+        "category": "microwave",
+        "categorypersian": "مایکروویو و سولاردام",
+        "images": [
+            "/image/product/micro-11.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.4
+    },
+    {
+        "id": 12,
+        "title": "قهوه‌ساز قطرهای فیلیپس ۱.۲ لیتری",
+        "price": 3400000,
+        "category": "coffee_maker",
+        "categorypersian": "قهوه‌ساز",
+        "images": [
+            "/image/product/coffee-12.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 3.8
+    },
+    {
+        "id": 13,
+        "title": "اتو بخار فیلیپس استیم گلاید",
+        "price": 4100000,
+        "category": "iron",
+        "categorypersian": "اتو و بخارپز",
+        "images": [
+            "/image/product/iron-13.webp"
+        ],
+        "discountPercent": 12,
+        "rate": 4.6
+    },
+    {
+        "id": 14,
+        "title": "آبگرمکن گازی بوتان ۱۲ لیتری",
+        "price": 8900000,
+        "category": "water_heater",
+        "categorypersian": "آبگرمکن",
+        "images": [
+            "/image/product/wh-14.webp"
+        ],
+        "discountPercent": 10,
+        "rate": 4.3
+    },
+    {
+        "id": 15,
+        "title": "یخچال فرانسوی دو درب هیمالیا",
+        "price": 41000000,
+        "category": "refrigerator",
+        "categorypersian": "یخچال و فریزر",
+        "images": [
+            "/image/product/ref-15.webp"
+        ],
+        "discountPercent": 22,
+        "rate": 4.9
+    },
+    {
+        "id": 16,
+        "title": "لباسشویی ۱۰ کیلویی بوش اینورتر",
+        "price": 32700000,
+        "category": "washing_machine",
+        "categorypersian": "ماشین لباسشویی",
+        "images": [
+            "/image/product/wash-16.webp"
+        ],
+        "discountPercent": 5,
+        "rate": 4.8
+    },
+    {
+        "id": 17,
+        "title": "جاروبرقی بسپار مدل شارژی قابل حمل",
+        "price": 6490000,
+        "category": "vacuum",
+        "categorypersian": "جاروبرقی",
+        "images": [
+            "/image/product/vac-17.webp"
+        ],
+        "discountPercent": 15,
+        "rate": 4.2
+    },
+    {
+        "id": 18,
+        "title": "مایکروفر ال جی ۴۲ لیتری",
+        "price": 17400000,
+        "category": "microwave",
+        "categorypersian": "مایکروویو و سولاردام",
+        "images": [
+            "/image/product/micro-18.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.5
+    },
+    {
+        "id": 19,
+        "title": "قهوه‌ساز نسپرسو اینیسا",
+        "price": 11500000,
+        "category": "coffee_maker",
+        "categorypersian": "قهوه‌ساز",
+        "images": [
+            "/image/product/coffee-19.webp"
+        ],
+        "discountPercent": 8,
+        "rate": 4.7
+    },
+    {
+        "id": 20,
+        "title": "اتو بخار عمودی تفال",
+        "price": 2880000,
+        "category": "iron",
+        "categorypersian": "اتو و بخارپز",
+        "images": [
+            "/image/product/iron-20.webp"
+        ],
+        "discountPercent": 20,
+        "rate": 4.0
+    },
+    {
+        "id": 21,
+        "title": "آبگرمکن برقی وستینگهاوس ۸۰ لیتری",
+        "price": 19300000,
+        "category": "water_heater",
+        "categorypersian": "آبگرمکن",
+        "images": [
+            "/image/product/wh-21.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.1
+    },
+    {
+        "id": 22,
+        "title": "یخچال ۲۱ فوت آبسال ساید",
+        "price": 31700000,
+        "category": "refrigerator",
+        "categorypersian": "یخچال و فریزر",
+        "images": [
+            "/image/product/ref-22.webp"
+        ],
+        "discountPercent": 14,
+        "rate": 4.4
+    },
+    {
+        "id": 23,
+        "title": "لباسشویی ۱۱ کیلویی سامسونگ اِکوبابل",
+        "price": 35200000,
+        "category": "washing_machine",
+        "categorypersian": "ماشین لباسشویی",
+        "images": [
+            "/image/product/wash-23.webp"
+        ],
+        "discountPercent": 10,
+        "rate": 4.9
+    },
+    {
+        "id": 24,
+        "title": "جاروبرقی مرکزی کالرویک ۱۸۰۰ وات",
+        "price": 14200000,
+        "category": "vacuum",
+        "categorypersian": "جاروبرقی",
+        "images": [
+            "/image/product/vac-24.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 3.7
+    },
+    {
+        "id": 25,
+        "title": "مایکروویو رومیستو ۳۰ لیتری",
+        "price": 7190000,
+        "category": "microwave",
+        "categorypersian": "مایکروویو و سولاردام",
+        "images": [
+            "/image/product/micro-25.webp"
+        ],
+        "discountPercent": 12,
+        "rate": 4.0
+    },
+    {
+        "id": 26,
+        "title": "قهوه‌ساز اسپرسو دستی استرود",
+        "price": 2150000,
+        "category": "coffee_maker",
+        "categorypersian": "قهوه‌ساز",
+        "images": [
+            "/image/product/coffee-26.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 3.5
+    },
+    {
+        "id": 27,
+        "title": "اتو پارکی رومبا ۲۰۰۰ وات",
+        "price": 1990000,
+        "category": "iron",
+        "categorypersian": "اتو و بخارپز",
+        "images": [
+            "/image/product/iron-27.webp"
+        ],
+        "discountPercent": 25,
+        "rate": 4.0
+    },
+    {
+        "id": 28,
+        "title": "آبگرمکن خورشیدی ۲۰۰ لیتری",
+        "price": 45300000,
+        "category": "water_heater",
+        "categorypersian": "آبگرمکن",
+        "images": [
+            "/image/product/wh-28.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.8
+    },
+    {
+        "id": 29,
+        "title": "یخچال پارس خودرو ۱۶ فوت",
+        "price": 19700000,
+        "category": "refrigerator",
+        "categorypersian": "یخچال و فریزر",
+        "images": [
+            "/image/product/ref-29.webp"
+        ],
+        "discountPercent": 5,
+        "rate": 3.9
+    },
+    {
+        "id": 30,
+        "title": "لباسشویی ۷ کیلویی دوو اینورتر",
+        "price": 14300000,
+        "category": "washing_machine",
+        "categorypersian": "ماشین لباسشویی",
+        "images": [
+            "/image/product/wash-30.webp"
+        ],
+        "discountPercent": 18,
+        "rate": 4.2
+    },
+    {
+        "id": 31,
+        "title": "جاروبرقی صنعتی کِرچر ۱۵۰۰ وات",
+        "price": 9620000,
+        "category": "vacuum",
+        "categorypersian": "جاروبرقی",
+        "images": [
+            "/image/product/vac-31.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.6
+    },
+    {
+        "id": 32,
+        "title": "مایکروفر ۴ در ۱ مولینکس",
+        "price": 13300000,
+        "category": "microwave",
+        "categorypersian": "مایکروویو و سولاردام",
+        "images": [
+            "/image/product/micro-32.webp"
+        ],
+        "discountPercent": 7,
+        "rate": 4.3
+    },
+    {
+        "id": 33,
+        "title": "قهوه‌جوش ترکی ملت",
+        "price": 1850000,
+        "category": "coffee_maker",
+        "categorypersian": "قهوه‌ساز",
+        "images": [
+            "/image/product/coffee-33.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 3.7
+    },
+    {
+        "id": 34,
+        "title": "اتو بیسیم فیلیپس مدل پرو",
+        "price": 5320000,
+        "category": "iron",
+        "categorypersian": "اتو و بخارپز",
+        "images": [
+            "/image/product/iron-34.webp"
+        ],
+        "discountPercent": 15,
+        "rate": 4.9
+    },
+    {
+        "id": 35,
+        "title": "آبگرمکن فوری پکیج بوتان ۲۴ لیتری",
+        "price": 27900000,
+        "category": "water_heater",
+        "categorypersian": "آبگرمکن",
+        "images": [
+            "/image/product/wh-35.webp"
+        ],
+        "discountPercent": 5,
+        "rate": 4.4
+    },
+    {
+        "id": 36,
+        "title": "یخچال ال جی اینورتر لاینر ۲۰ فوت",
+        "price": 37000000,
+        "category": "refrigerator",
+        "categorypersian": "یخچال و فریزر",
+        "images": [
+            "/image/product/ref-36.webp"
+        ],
+        "discountPercent": 10,
+        "rate": 4.8
+    },
+    {
+        "id": 37,
+        "title": "لباسشویی اسنوا درب جلو ۹ کیلویی",
+        "price": 20100000,
+        "category": "washing_machine",
+        "categorypersian": "ماشین لباسشویی",
+        "images": [
+            "/image/product/wash-37.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.1
+    },
+    {
+        "id": 38,
+        "title": "جارو شارژی کدبلیو ۵ شیائومی",
+        "price": 9250000,
+        "category": "vacuum",
+        "categorypersian": "جاروبرقی",
+        "images": [
+            "/image/product/vac-38.webp"
+        ],
+        "discountPercent": 12,
+        "rate": 4.7
+    },
+    {
+        "id": 39,
+        "title": "مایکروویو هوشمند الجی NeoChef",
+        "price": 15300000,
+        "category": "microwave",
+        "categorypersian": "مایکروویو و سولاردام",
+        "images": [
+            "/image/product/micro-39.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.9
+    },
+    {
+        "id": 40,
+        "title": "قهوه‌ساز کپسولی نستله دولچه گوستو",
+        "price": 6280000,
+        "category": "coffee_maker",
+        "categorypersian": "قهوه‌ساز",
+        "images": [
+            "/image/product/coffee-40.webp"
+        ],
+        "discountPercent": 20,
+        "rate": 4.5
+    },
+    {
+        "id": 41,
+        "title": "اتو پاناسونیک ۲۴۰۰ وات نانو",
+        "price": 3760000,
+        "category": "iron",
+        "categorypersian": "اتو و بخارپز",
+        "images": [
+            "/image/product/iron-41.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.3
+    },
+    {
+        "id": 42,
+        "title": "آبگرمکن گازی دیواری ۱۶ لیتری برودر",
+        "price": 14900000,
+        "category": "water_heater",
+        "categorypersian": "آبگرمکن",
+        "images": [
+            "/image/product/wh-42.webp"
+        ],
+        "discountPercent": 8,
+        "rate": 4.2
+    },
+    {
+        "id": 43,
+        "title": "یخچال وایزنهاوس ۲۲ فوت",
+        "price": 39800000,
+        "category": "refrigerator",
+        "categorypersian": "یخچال و فریزر",
+        "images": [
+            "/image/product/ref-43.webp"
+        ],
+        "discountPercent": 18,
+        "rate": 4.6
+    },
+    {
+        "id": 44,
+        "title": "لباسشویی هیمالیا ۱۲ کیلویی بخار",
+        "price": 26800000,
+        "category": "washing_machine",
+        "categorypersian": "ماشین لباسشویی",
+        "images": [
+            "/image/product/wash-44.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.4
+    },
+    {
+        "id": 45,
+        "title": "جارو رباتیک ای روبو مدل D80",
+        "price": 15900000,
+        "category": "vacuum",
+        "categorypersian": "جاروبرقی",
+        "images": [
+            "/image/product/vac-45.webp"
+        ],
+        "discountPercent": 25,
+        "rate": 4.1
+    },
+    {
+        "id": 46,
+        "title": "مایکروفر گریل دار بوش",
+        "price": 11800000,
+        "category": "microwave",
+        "categorypersian": "مایکروویو و سولاردام",
+        "images": [
+            "/image/product/micro-46.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.5
+    },
+    {
+        "id": 47,
+        "title": "قهوه‌ساز اسپرسو گاجیا ۱۵ بار",
+        "price": 8710000,
+        "category": "coffee_maker",
+        "categorypersian": "قهوه‌ساز",
+        "images": [
+            "/image/product/coffee-47.webp"
+        ],
+        "discountPercent": 12,
+        "rate": 4.7
+    },
+    {
+        "id": 48,
+        "title": "اتو بخار سونیو مدل حرفه‌ای",
+        "price": 2920000,
+        "category": "iron",
+        "categorypersian": "اتو و بخارپز",
+        "images": [
+            "/image/product/iron-48.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 3.9
+    },
+    {
+        "id": 49,
+        "title": "آبگرمکن دیواری ۱۵ لیتری بوتان ارس",
+        "price": 10800000,
+        "category": "water_heater",
+        "categorypersian": "آبگرمکن",
+        "images": [
+            "/image/product/wh-49.webp"
+        ],
+        "discountPercent": 10,
+        "rate": 4.1
+    },
+    {
+        "id": 50,
+        "title": "یخچال مینی بار الکترواستیل ۶۰ لیتری",
+        "price": 8350000,
+        "category": "refrigerator",
+        "categorypersian": "یخچال و فریزر",
+        "images": [
+            "/image/product/ref-50.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4.0
+    }
+]
