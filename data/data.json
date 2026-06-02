@@ -10,7 +10,33 @@
             "/image/product/ref-1-1.webp"
         ],
         "discountPercent": 12,
-        "rate": 4.7
+        "rate": 4.7,
+        "shippingToday": true,
+        "stock": 5,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 485000,
+            "insuranceDiscountPercent": 10
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه سامسونگ",
+            "گارانتی تعویض کالا"
+        ],
+        "description": "یخچال ساید بای ساید سامسونگ با ظرفیت ۲۴ فوت، مجهز به فناوری نوین خنک‌کنندگی و مصرف بهینه انرژی، مناسب برای خانواده‌های پرجمعیت.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۲۴ فوت"
+            },
+            {
+                "title": "نوع کمپرسور",
+                "value": "اینورتر دیجیتال"
+            }
+        ],
+        "color": {
+            "en": "Silver",
+            "fa": "نقره‌ای"
+        }
     },
     {
         "id": 2,
@@ -27,7 +53,32 @@
             "/image/product/wash-2-5.webp"
         ],
         "discountPercent": 0,
-        "rate": 4.9
+        "rate": 4.9,
+        "shippingToday": true,
+        "stock": 12,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 289000,
+            "insuranceDiscountPercent": 5
+        },
+        "warranties": [
+            "گارانتی ۳۶ ماهه ال جی"
+        ],
+        "description": "لباسشویی ۱۲ کیلویی ال جی با موتور اینورتر مستقیم، درب جلو، شستشوی بخار و اتصال هوشمند به تلفن همراه.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۱۲ کیلوگرم"
+            },
+            {
+                "title": "حداکثر سرعت دور",
+                "value": "۱۴۰۰ دور در دقیقه"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 3,
@@ -41,7 +92,32 @@
             "/image/product/vac-3-2.webp"
         ],
         "discountPercent": 20,
-        "rate": 4.5
+        "rate": 4.5,
+        "shippingToday": false,
+        "stock": 8,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۱۸ ماهه شیائومی"
+        ],
+        "description": "جاروبرقی رباتیک شیائومی S10 با مکش قوی، نقشه‌برداری هوشمند لیزری، مسیریابی دقیق و قابلیت موپ‌کشی.",
+        "specs": [
+            {
+                "title": "قدرت مکش",
+                "value": "۴۰۰۰ پاسکال"
+            },
+            {
+                "title": "مدت زمان شارژ",
+                "value": "۴ ساعت"
+            }
+        ],
+        "color": {
+            "en": "Black",
+            "fa": "مشکی"
+        }
     },
     {
         "id": 4,
@@ -55,7 +131,32 @@
             "/image/product/micro-4-2.webp"
         ],
         "discountPercent": 5,
-        "rate": 4.3
+        "rate": 4.3,
+        "shippingToday": true,
+        "stock": 3,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 127000,
+            "insuranceDiscountPercent": 0
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه پاناسونیک"
+        ],
+        "description": "مایکروویو ۳۲ لیتری پاناسونیک با تکنولوژی اینورتر، طبخ یکنواخت و سریع، مناسب برای آشپزی روزمره.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۳۲ لیتر"
+            },
+            {
+                "title": "قدرت",
+                "value": "۱۰۰۰ وات"
+            }
+        ],
+        "color": {
+            "en": "Matte Black",
+            "fa": "مشکی مات"
+        }
     },
     {
         "id": 5,
@@ -69,7 +170,33 @@
             "/image/product/coffee-5-2.webp"
         ],
         "discountPercent": 15,
-        "rate": 4.8
+        "rate": 4.8,
+        "shippingToday": false,
+        "stock": 7,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 224000,
+            "insuranceDiscountPercent": 8
+        },
+        "warranties": [
+            "گارانتی ۳۰ ماهه دلونگی",
+            "گارانتی طلایی بدون قید و شرط"
+        ],
+        "description": "قهوه‌ساز اتوماتیک دلونگی با قابلیت تنظیم آسیاب، کف‌ساز حرفه‌ای و گرم‌کن فنجان، مناسب برای اسپرسو و کاپوچینو.",
+        "specs": [
+            {
+                "title": "ظرفیت مخزن آب",
+                "value": "۱.۸ لیتر"
+            },
+            {
+                "title": "فشار پمپ",
+                "value": "۱۵ بار"
+            }
+        ],
+        "color": {
+            "en": "Silver & Black",
+            "fa": "نقره‌ای و مشکی"
+        }
     },
     {
         "id": 6,
@@ -82,7 +209,32 @@
             "/image/product/iron-6-1.webp"
         ],
         "discountPercent": 25,
-        "rate": 4.1
+        "rate": 4.1,
+        "shippingToday": true,
+        "stock": 15,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۱۲ ماهه تفلن"
+        ],
+        "description": "اتو بخار حرفه‌ای تفلن با کف سرامیکی، تولید بخار عمودی و افقی، مناسب برای از بین بردن چین و چروک انواع پارچه.",
+        "specs": [
+            {
+                "title": "قدرت",
+                "value": "۲۲۰۰ وات"
+            },
+            {
+                "title": "ظرفیت مخزن آب",
+                "value": "۳۰۰ میلی‌لیتر"
+            }
+        ],
+        "color": {
+            "en": "Blue",
+            "fa": "آبی"
+        }
     },
     {
         "id": 7,
@@ -95,7 +247,32 @@
             "/image/product/wh-7-1.webp"
         ],
         "discountPercent": 0,
-        "rate": 4.0
+        "rate": 4.0,
+        "shippingToday": false,
+        "stock": 10,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 125000,
+            "insuranceDiscountPercent": 12
+        },
+        "warranties": [
+            "گارانتی ۱۸ ماهه بوتان"
+        ],
+        "description": "آبگرمکن دیواری بوتان ۱۸ لیتری با سیستم ایمنی کامل، مصرف بهینه گاز و بدنه مقاوم، مناسب برای آپارتمان.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۱۸ لیتر در دقیقه"
+            },
+            {
+                "title": "نوع",
+                "value": "دیواری"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 8,
@@ -108,7 +285,32 @@
             "/image/product/ref-8-1.webp"
         ],
         "discountPercent": 10,
-        "rate": 4.2
+        "rate": 4.2,
+        "shippingToday": true,
+        "stock": 6,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 245000,
+            "insuranceDiscountPercent": 7
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه اسنوا"
+        ],
+        "description": "یخچال فرد دار اسنوا ۱۸ فوت با طراحی زیبا، سیستم خنک‌کننده چندگانه و فضای مناسب برای مصارف روزمره.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۱۸ فوت"
+            },
+            {
+                "title": "نوع",
+                "value": "فرد دار"
+            }
+        ],
+        "color": {
+            "en": "Silver",
+            "fa": "نقره‌ای"
+        }
     },
     {
         "id": 9,
@@ -121,7 +323,32 @@
             "/image/product/wash-9-1.webp"
         ],
         "discountPercent": 7,
-        "rate": 4.0
+        "rate": 4.0,
+        "shippingToday": false,
+        "stock": 9,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۱۸ ماهه اسنوا"
+        ],
+        "description": "لباسشویی درب بالا اسنوا با ظرفیت ۸ کیلوگرم، شستشوی قدرتمند و مصرف آب بهینه، ایده‌ال برای خانواده‌های کوچک.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۸ کیلوگرم"
+            },
+            {
+                "title": "نوع درب",
+                "value": "درب بالا"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 10,
@@ -134,7 +361,32 @@
             "/image/product/vac-10-1.webp"
         ],
         "discountPercent": 18,
-        "rate": 3.9
+        "rate": 3.9,
+        "shippingToday": true,
+        "stock": 20,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 56500,
+            "insuranceDiscountPercent": 15
+        },
+        "warranties": [
+            "گارانتی ۱۲ ماهه تیفال"
+        ],
+        "description": "جاروبرقی کیسه‌دار تیفال با قدرت ۲۲۰۰ وات، فیلتر هپا و قابلیت مکش قوی، مناسب برای موکت و فرش.",
+        "specs": [
+            {
+                "title": "قدرت",
+                "value": "۲۲۰۰ وات"
+            },
+            {
+                "title": "نوع",
+                "value": "کیسه‌دار"
+            }
+        ],
+        "color": {
+            "en": "Red & Gray",
+            "fa": "قرمز و طوسی"
+        }
     },
     {
         "id": 11,
@@ -143,10 +395,40 @@
         "category": "microwave",
         "categorypersian": "مایکروویو و سولاردام",
         "images": [
-            "/image/product/micro-11.webp"
+            "/image/product/micro-11.webp",
+            "/image/product/micro-11-1.webp",
+            "/image/product/micro-11-2.webp",
+            "/image/product/micro-11-3.webp",
+            "/image/product/micro-11-4.webp",
+            "/image/product/micro-11-5.webp"
         ],
         "discountPercent": 0,
-        "rate": 4.4
+        "rate": 4.4,
+        "shippingToday": false,
+        "stock": 4,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه سامسونگ"
+        ],
+        "description": "مایکروویو سامسونگ ۲۵ لیتری مجهز به گریل، صفحه چرخان و برنامه‌های پخت خودکار، مناسب برای گرم کردن و پخت غذا.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۲۵ لیتر"
+            },
+            {
+                "title": "قابلیت",
+                "value": "دارای گریل"
+            }
+        ],
+        "color": {
+            "en": "Black",
+            "fa": "مشکی"
+        }
     },
     {
         "id": 12,
@@ -155,10 +437,37 @@
         "category": "coffee_maker",
         "categorypersian": "قهوه‌ساز",
         "images": [
-            "/image/product/coffee-12.webp"
+            "/image/product/coffee-12.webp",
+            "/image/product/coffee-12-1.webp",
+            "/image/product/coffee-12-2.webp"
         ],
         "discountPercent": 0,
-        "rate": 3.8
+        "rate": 3.8,
+        "shippingToday": true,
+        "stock": 25,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 34000,
+            "insuranceDiscountPercent": 10
+        },
+        "warranties": [
+            "گارانتی ۱۲ ماهه فیلیپس"
+        ],
+        "description": "قهوه‌ساز قطرهای فیلیپس با مخزن ۱.۲ لیتری، قابلیت نگهداری گرم و صفحه گرم‌کن، مناسب برای مصارف خانگی.",
+        "specs": [
+            {
+                "title": "ظرفیت مخزن",
+                "value": "۱.۲ لیتر"
+            },
+            {
+                "title": "نوع",
+                "value": "قطره‌ای"
+            }
+        ],
+        "color": {
+            "en": "Black",
+            "fa": "مشکی"
+        }
     },
     {
         "id": 13,
@@ -170,7 +479,32 @@
             "/image/product/iron-13.webp"
         ],
         "discountPercent": 12,
-        "rate": 4.6
+        "rate": 4.6,
+        "shippingToday": false,
+        "stock": 11,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه فیلیپس"
+        ],
+        "description": "اتو بخار فیلیپس استیم گلاید با کف سرامیکی پیشرفته، تولید بخار پیوسته و سیستم ضدچکه.",
+        "specs": [
+            {
+                "title": "قدرت",
+                "value": "۲۴۰۰ وات"
+            },
+            {
+                "title": "ظرفیت مخزن",
+                "value": "۳۰۰ میلی‌لیتر"
+            }
+        ],
+        "color": {
+            "en": "Turquoise",
+            "fa": "فیروزه‌ای"
+        }
     },
     {
         "id": 14,
@@ -182,7 +516,32 @@
             "/image/product/wh-14.webp"
         ],
         "discountPercent": 10,
-        "rate": 4.3
+        "rate": 4.3,
+        "shippingToday": true,
+        "stock": 14,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 89000,
+            "insuranceDiscountPercent": 5
+        },
+        "warranties": [
+            "گارانتی ۱۸ ماهه بوتان"
+        ],
+        "description": "آبگرمکن گازی بوتان ۱۲ لیتری با شعله‌های ایمن، مصرف بهینه و ابعاد جمع و جور، مناسب برای واحدهای کوچک.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۱۲ لیتر در دقیقه"
+            },
+            {
+                "title": "نوع",
+                "value": "گازی"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 15,
@@ -191,10 +550,39 @@
         "category": "refrigerator",
         "categorypersian": "یخچال و فریزر",
         "images": [
-            "/image/product/ref-15.webp"
+            "/image/product/ref-15.webp",
+            "/image/product/ref-15-1.webp",
+            "/image/product/ref-15-2.webp",
+            "/image/product/ref-15-3.webp"
         ],
         "discountPercent": 22,
-        "rate": 4.9
+        "rate": 4.9,
+        "shippingToday": false,
+        "stock": 3,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 410000,
+            "insuranceDiscountPercent": 12
+        },
+        "warranties": [
+            "گارانتی ۳۰ ماهه هیمالیا",
+            "گارانتی طلایی"
+        ],
+        "description": "یخچال فرانسوی دو درب هیمالیا با طراحی شیک، فناوری نوین خنک‌کنندگی و فضای داخلی جادار، لوکس و کاربردی.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۲۵ فوت"
+            },
+            {
+                "title": "نوع",
+                "value": "فرانسوی دو درب"
+            }
+        ],
+        "color": {
+            "en": "Stainless Steel",
+            "fa": "استیل ضد زنگ"
+        }
     },
     {
         "id": 16,
@@ -203,10 +591,37 @@
         "category": "washing_machine",
         "categorypersian": "ماشین لباسشویی",
         "images": [
-            "/image/product/wash-16.webp"
+            "/image/product/wash-16.webp",
+            "/image/product/wash-16-1.webp",
+            "/image/product/wash-16-2.webp"
         ],
         "discountPercent": 5,
-        "rate": 4.8
+        "rate": 4.8,
+        "shippingToday": true,
+        "stock": 6,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۳۶ ماهه بوش"
+        ],
+        "description": "لباسشویی بوش ۱۰ کیلویی با موتور اینورتر، سیستم ضد حساسیت و مصرف بهینه انرژی، ساخت آلمان.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۱۰ کیلوگرم"
+            },
+            {
+                "title": "حداکثر سرعت دور",
+                "value": "۱۴۰۰ دور در دقیقه"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 17,
@@ -215,22 +630,76 @@
         "category": "vacuum",
         "categorypersian": "جاروبرقی",
         "images": [
-            "/image/product/vac-17.webp"
+            "/image/product/vac-17.webp",
+            "/image/product/vac-17-1.webp",
+            "/image/product/vac-17-2.webp"
         ],
         "discountPercent": 15,
-        "rate": 4.2
+        "rate": 4.2,
+        "shippingToday": false,
+        "stock": 18,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 64900,
+            "insuranceDiscountPercent": 10
+        },
+        "warranties": [
+            "گارانتی ۱۲ ماهه بسپار"
+        ],
+        "description": "جاروبرقی شارژی قابل حمل بسپار با قدرت مکش خوب، وزن سبک و قابلیت استفاده در خودرو و منزل.",
+        "specs": [
+            {
+                "title": "نوع",
+                "value": "شارژی قابل حمل"
+            },
+            {
+                "title": "مدت زمان شارژ",
+                "value": "۴ ساعت"
+            }
+        ],
+        "color": {
+            "en": "White & Gray",
+            "fa": "سفید و طوسی"
+        }
     },
     {
         "id": 18,
-        "title": "مایکروفر ال جی ۴۲ لیتری",
+        "title": "مایکروفرو ال جی ۴۲ لیتری",
         "price": 17400000,
         "category": "microwave",
         "categorypersian": "مایکروویو و سولاردام",
         "images": [
-            "/image/product/micro-18.webp"
+            "/image/product/micro-18.webp",
+            "/image/product/micro-18-1.webp",
+            "/image/product/micro-18-2.webp"
         ],
         "discountPercent": 0,
-        "rate": 4.5
+        "rate": 4.5,
+        "shippingToday": true,
+        "stock": 5,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه ال جی"
+        ],
+        "description": "مایکروویو ال جی ۴۲ لیتری با گریل و فناوری اینورتر، پخت یکنواخت و سریع، مناسب برای خانواده‌های پرجمعیت.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۴۲ لیتر"
+            },
+            {
+                "title": "قدرت",
+                "value": "۱۰۰۰ وات"
+            }
+        ],
+        "color": {
+            "en": "Black & Silver",
+            "fa": "مشکی و نقره‌ای"
+        }
     },
     {
         "id": 19,
@@ -239,10 +708,37 @@
         "category": "coffee_maker",
         "categorypersian": "قهوه‌ساز",
         "images": [
-            "/image/product/coffee-19.webp"
+            "/image/product/coffee-19.webp",
+            "/image/product/coffee-19-1.webp",
+            "/image/product/coffee-19-2.webp"
         ],
         "discountPercent": 8,
-        "rate": 4.7
+        "rate": 4.7,
+        "shippingToday": false,
+        "stock": 9,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 115000,
+            "insuranceDiscountPercent": 5
+        },
+        "warranties": [
+            "گارانتی ۱۸ ماهه نسپرسو"
+        ],
+        "description": "قهوه‌ساز کپسولی نسپرسو اینیسا با طراحی جمع و جور، سیستم پرفشار و کف‌ساز یکپارچه، مناسب برای اسپرسو.",
+        "specs": [
+            {
+                "title": "فشار پمپ",
+                "value": "۱۹ بار"
+            },
+            {
+                "title": "ظرفیت مخزن آب",
+                "value": "۰.۷ لیتر"
+            }
+        ],
+        "color": {
+            "en": "Red",
+            "fa": "قرمز"
+        }
     },
     {
         "id": 20,
@@ -254,7 +750,32 @@
             "/image/product/iron-20.webp"
         ],
         "discountPercent": 20,
-        "rate": 4.0
+        "rate": 4.0,
+        "shippingToday": true,
+        "stock": 22,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۱۲ ماهه تفال"
+        ],
+        "description": "اتو بخار عمودی تفال مناسب برای از بین بردن چین و چروک لباس‌های آویز و پرده، با بخار قوی.",
+        "specs": [
+            {
+                "title": "قدرت",
+                "value": "۱۵۰۰ وات"
+            },
+            {
+                "title": "ظرفیت مخزن",
+                "value": "۱.۲ لیتر"
+            }
+        ],
+        "color": {
+            "en": "White & Pink",
+            "fa": "سفید و صورتی"
+        }
     },
     {
         "id": 21,
@@ -266,7 +787,32 @@
             "/image/product/wh-21.webp"
         ],
         "discountPercent": 0,
-        "rate": 4.1
+        "rate": 4.1,
+        "shippingToday": false,
+        "stock": 7,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 193000,
+            "insuranceDiscountPercent": 8
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه وستینگهاوس"
+        ],
+        "description": "آبگرمکن برقی وستینگهاوس ۸۰ لیتری با مخزن دوجداره، عایق حرارتی قوی و مصرف بهینه برق.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۸۰ لیتر"
+            },
+            {
+                "title": "نوع",
+                "value": "برقی"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 22,
@@ -278,7 +824,32 @@
             "/image/product/ref-22.webp"
         ],
         "discountPercent": 14,
-        "rate": 4.4
+        "rate": 4.4,
+        "shippingToday": true,
+        "stock": 4,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه آبسال"
+        ],
+        "description": "یخچال ساید آبسال ۲۱ فوت با طراحی مدرن، سیستم خنک‌کننده یکنواخت و فضای مناسب برای خانواده.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۲۱ فوت"
+            },
+            {
+                "title": "نوع",
+                "value": "ساید بای ساید"
+            }
+        ],
+        "color": {
+            "en": "Silver",
+            "fa": "نقره‌ای"
+        }
     },
     {
         "id": 23,
@@ -290,7 +861,33 @@
             "/image/product/wash-23.webp"
         ],
         "discountPercent": 10,
-        "rate": 4.9
+        "rate": 4.9,
+        "shippingToday": false,
+        "stock": 5,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 352000,
+            "insuranceDiscountPercent": 10
+        },
+        "warranties": [
+            "گارانتی ۳۶ ماهه سامسونگ",
+            "گارانتی تعویض کالا"
+        ],
+        "description": "لباسشویی ۱۱ کیلویی سامسونگ با فناوری اکوبابل، شستشوی قدرتمند و مصرف انرژی A+++.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۱۱ کیلوگرم"
+            },
+            {
+                "title": "تکنولوژی",
+                "value": "اکوبابل"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 24,
@@ -302,7 +899,32 @@
             "/image/product/vac-24.webp"
         ],
         "discountPercent": 0,
-        "rate": 3.7
+        "rate": 3.7,
+        "shippingToday": false,
+        "stock": 2,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۱۲ ماهه کالرویک"
+        ],
+        "description": "جاروبرقی مرکزی کالرویک با قدرت ۱۸۰۰ وات، مناسب برای منازل بزرگ و دارای فیلتراسیون پیشرفته.",
+        "specs": [
+            {
+                "title": "قدرت",
+                "value": "۱۸۰۰ وات"
+            },
+            {
+                "title": "نوع",
+                "value": "مرکزی"
+            }
+        ],
+        "color": {
+            "en": "Black",
+            "fa": "مشکی"
+        }
     },
     {
         "id": 25,
@@ -314,7 +936,32 @@
             "/image/product/micro-25.webp"
         ],
         "discountPercent": 12,
-        "rate": 4.0
+        "rate": 4.0,
+        "shippingToday": true,
+        "stock": 13,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 71900,
+            "insuranceDiscountPercent": 0
+        },
+        "warranties": [
+            "گارانتی ۱۸ ماهه رومیستو"
+        ],
+        "description": "مایکروویو رومیستو ۳۰ لیتری با گریل، صفحه چرخان و برنامه‌های پخت متنوع، اقتصادی و کاربردی.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۳۰ لیتر"
+            },
+            {
+                "title": "قدرت",
+                "value": "۹۰۰ وات"
+            }
+        ],
+        "color": {
+            "en": "Black",
+            "fa": "مشکی"
+        }
     },
     {
         "id": 26,
@@ -326,7 +973,30 @@
             "/image/product/coffee-26.webp"
         ],
         "discountPercent": 0,
-        "rate": 3.5
+        "rate": 3.5,
+        "shippingToday": true,
+        "stock": 30,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [],
+        "description": "قهوه‌ساز اسپرسو دستی استرود با فشار ۹ بار، طراحی جمع و جور و بدون نیاز به برق، مناسب برای سفر.",
+        "specs": [
+            {
+                "title": "فشار",
+                "value": "۹ بار"
+            },
+            {
+                "title": "نوع",
+                "value": "دستی"
+            }
+        ],
+        "color": {
+            "en": "Silver",
+            "fa": "نقره‌ای"
+        }
     },
     {
         "id": 27,
@@ -338,7 +1008,32 @@
             "/image/product/iron-27.webp"
         ],
         "discountPercent": 25,
-        "rate": 4.0
+        "rate": 4.0,
+        "shippingToday": false,
+        "stock": 16,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 19900,
+            "insuranceDiscountPercent": 20
+        },
+        "warranties": [
+            "گارانتی ۱۲ ماهه رومبا"
+        ],
+        "description": "اتو پارکی رومبا با قدرت ۲۰۰۰ وات، کف نچسب و بخار قوی، مناسب برای مصارف خانگی.",
+        "specs": [
+            {
+                "title": "قدرت",
+                "value": "۲۰۰۰ وات"
+            },
+            {
+                "title": "نوع",
+                "value": "اتو پارکی"
+            }
+        ],
+        "color": {
+            "en": "Blue & White",
+            "fa": "آبی و سفید"
+        }
     },
     {
         "id": 28,
@@ -350,7 +1045,33 @@
             "/image/product/wh-28.webp"
         ],
         "discountPercent": 0,
-        "rate": 4.8
+        "rate": 4.8,
+        "shippingToday": false,
+        "stock": 1,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 453000,
+            "insuranceDiscountPercent": 5
+        },
+        "warranties": [
+            "گارانتی ۳۶ ماهه خورشیدی",
+            "گارانتی سازه"
+        ],
+        "description": "آبگرمکن خورشیدی ۲۰۰ لیتری با جذب حداکثری انرژی خورشید، صرفه‌جویی در مصرف برق و دوستدار محیط زیست.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۲۰۰ لیتر"
+            },
+            {
+                "title": "نوع",
+                "value": "خورشیدی"
+            }
+        ],
+        "color": {
+            "en": "Copper & Black",
+            "fa": "مسی و مشکی"
+        }
     },
     {
         "id": 29,
@@ -362,7 +1083,32 @@
             "/image/product/ref-29.webp"
         ],
         "discountPercent": 5,
-        "rate": 3.9
+        "rate": 3.9,
+        "shippingToday": true,
+        "stock": 8,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۱۸ ماهه پارس خودرو"
+        ],
+        "description": "یخچال پارس خودرو ۱۶ فوت با طراحی ساده، مصرف انرژی بهینه و قیمت مناسب، ایده‌ال برای خانواده‌های کم‌جمعیت.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۱۶ فوت"
+            },
+            {
+                "title": "نوع کمپرسور",
+                "value": "معمولی"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 30,
@@ -374,7 +1120,32 @@
             "/image/product/wash-30.webp"
         ],
         "discountPercent": 18,
-        "rate": 4.2
+        "rate": 4.2,
+        "shippingToday": false,
+        "stock": 10,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 143000,
+            "insuranceDiscountPercent": 12
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه دوو"
+        ],
+        "description": "لباسشویی ۷ کیلویی دوو با موتور اینورتر، شستشوی سریع و مصرف آب بهینه، مناسب برای آپارتمان.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۷ کیلوگرم"
+            },
+            {
+                "title": "حداکثر سرعت دور",
+                "value": "۱۲۰۰ دور در دقیقه"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 31,
@@ -386,11 +1157,36 @@
             "/image/product/vac-31.webp"
         ],
         "discountPercent": 0,
-        "rate": 4.6
+        "rate": 4.6,
+        "shippingToday": false,
+        "stock": 3,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۱۸ ماهه کرچر"
+        ],
+        "description": "جاروبرقی صنعتی کرچر ۱۵۰۰ وات با قدرت مکش بالا، مخزن بزرگ و قابلیت مکش آب، مناسب برای کارگاه‌ها.",
+        "specs": [
+            {
+                "title": "قدرت",
+                "value": "۱۵۰۰ وات"
+            },
+            {
+                "title": "ظرفیت مخزن",
+                "value": "۲۵ لیتر"
+            }
+        ],
+        "color": {
+            "en": "Yellow & Black",
+            "fa": "زرد و مشکی"
+        }
     },
     {
         "id": 32,
-        "title": "مایکروفر ۴ در ۱ مولینکس",
+        "title": "مایکروفرو ۴ در ۱ مولینکس",
         "price": 13300000,
         "category": "microwave",
         "categorypersian": "مایکروویو و سولاردام",
@@ -398,7 +1194,32 @@
             "/image/product/micro-32.webp"
         ],
         "discountPercent": 7,
-        "rate": 4.3
+        "rate": 4.3,
+        "shippingToday": true,
+        "stock": 4,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 133000,
+            "insuranceDiscountPercent": 0
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه مولینکس"
+        ],
+        "description": "مایکروویو ۴ در ۱ مولینکس با قابلیت مایکروویو، گریل، کانوکشن و فر، یک دستگاه کامل برای آشپزی.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۳۵ لیتر"
+            },
+            {
+                "title": "قابلیت‌ها",
+                "value": "مایکروویو، گریل، کانوکشن، فر"
+            }
+        ],
+        "color": {
+            "en": "Silver",
+            "fa": "نقره‌ای"
+        }
     },
     {
         "id": 33,
@@ -410,7 +1231,32 @@
             "/image/product/coffee-33.webp"
         ],
         "discountPercent": 0,
-        "rate": 3.7
+        "rate": 3.7,
+        "shippingToday": true,
+        "stock": 40,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۶ ماهه ملت"
+        ],
+        "description": "قهوه‌جوش ترکی ملت با قدرت ۷۵۰ وات، قابلیت تنظیم دما و ظرفیت ۳ فنجان، مناسب برای قهوه ترکی سنتی.",
+        "specs": [
+            {
+                "title": "قدرت",
+                "value": "۷۵۰ وات"
+            },
+            {
+                "title": "ظرفیت",
+                "value": "۳ فنجان"
+            }
+        ],
+        "color": {
+            "en": "Gold",
+            "fa": "طلایی"
+        }
     },
     {
         "id": 34,
@@ -422,7 +1268,32 @@
             "/image/product/iron-34.webp"
         ],
         "discountPercent": 15,
-        "rate": 4.9
+        "rate": 4.9,
+        "shippingToday": false,
+        "stock": 6,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 53200,
+            "insuranceDiscountPercent": 15
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه فیلیپس"
+        ],
+        "description": "اتو بیسیم فیلیپس مدل پرو با قابلیت اتوکشی بدون سیم، صفحه ضدخش و بخار قوی، فوق‌العاده راحت.",
+        "specs": [
+            {
+                "title": "نوع",
+                "value": "بیسیم"
+            },
+            {
+                "title": "زمان بیکاری",
+                "value": "تا ۳۰ دقیقه"
+            }
+        ],
+        "color": {
+            "en": "Black & Gold",
+            "fa": "مشکی و طلایی"
+        }
     },
     {
         "id": 35,
@@ -434,7 +1305,32 @@
             "/image/product/wh-35.webp"
         ],
         "discountPercent": 5,
-        "rate": 4.4
+        "rate": 4.4,
+        "shippingToday": true,
+        "stock": 7,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه بوتان"
+        ],
+        "description": "آبگرمکن فوری پکیج بوتان ۲۴ لیتری با عملکرد پرقدرت، مصرف بهینه و سیستم ایمنی پیشرفته.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۲۴ لیتر در دقیقه"
+            },
+            {
+                "title": "نوع",
+                "value": "فوری پکیج"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 36,
@@ -446,7 +1342,33 @@
             "/image/product/ref-36.webp"
         ],
         "discountPercent": 10,
-        "rate": 4.8
+        "rate": 4.8,
+        "shippingToday": false,
+        "stock": 4,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 370000,
+            "insuranceDiscountPercent": 8
+        },
+        "warranties": [
+            "گارانتی ۳۶ ماهه ال جی",
+            "گارانتی طلایی"
+        ],
+        "description": "یخچال ال جی اینورتر لاینر ۲۰ فوت با کمپرسور ۱۰ سال ضمانت، سیستم خنک‌کننده خطی و طراحی مدرن.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۲۰ فوت"
+            },
+            {
+                "title": "تکنولوژی",
+                "value": "اینورتر لاینر"
+            }
+        ],
+        "color": {
+            "en": "Silver",
+            "fa": "نقره‌ای"
+        }
     },
     {
         "id": 37,
@@ -458,7 +1380,32 @@
             "/image/product/wash-37.webp"
         ],
         "discountPercent": 0,
-        "rate": 4.1
+        "rate": 4.1,
+        "shippingToday": true,
+        "stock": 11,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۱۸ ماهه اسنوا"
+        ],
+        "description": "لباسشویی اسنوا ۹ کیلویی درب جلو با موتور بی‌تسمه، شستشوی قدرتمند و مصرف انرژی بهینه.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۹ کیلوگرم"
+            },
+            {
+                "title": "حداکثر سرعت دور",
+                "value": "۱۲۰۰ دور در دقیقه"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 38,
@@ -470,7 +1417,32 @@
             "/image/product/vac-38.webp"
         ],
         "discountPercent": 12,
-        "rate": 4.7
+        "rate": 4.7,
+        "shippingToday": true,
+        "stock": 9,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 92500,
+            "insuranceDiscountPercent": 10
+        },
+        "warranties": [
+            "گارانتی ۱۸ ماهه شیائومی"
+        ],
+        "description": "جارو شارژی کدبلیو ۵ شیائومی با طراحی سبک، مکش قوی و قابلیت تبدیل به جاروی دستی، مناسب برای خانه‌های مدرن.",
+        "specs": [
+            {
+                "title": "قدرت مکش",
+                "value": "۲۵۰۰۰ پاسکال"
+            },
+            {
+                "title": "مدت زمان شارژ",
+                "value": "۳ ساعت"
+            }
+        ],
+        "color": {
+            "en": "White",
+            "fa": "سفید"
+        }
     },
     {
         "id": 39,
@@ -482,7 +1454,33 @@
             "/image/product/micro-39.webp"
         ],
         "discountPercent": 0,
-        "rate": 4.9
+        "rate": 4.9,
+        "shippingToday": false,
+        "stock": 3,
+        "insurance": {
+            "hasInsurance": false,
+            "insurancePrice": null,
+            "insuranceDiscountPercent": null
+        },
+        "warranties": [
+            "گارانتی ۲۴ ماهه ال جی",
+            "گارانتی تعویض کالا"
+        ],
+        "description": "مایکروویو هوشمند ال جی NeoChef با تکنولوژی اینورتر، بدنه استیل و حسگر پخت هوشمند، پخت عالی.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۳۰ لیتر"
+            },
+            {
+                "title": "قدرت",
+                "value": "۹۵۰ وات"
+            }
+        ],
+        "color": {
+            "en": "Black & Silver",
+            "fa": "مشکی و نقره‌ای"
+        }
     },
     {
         "id": 40,
@@ -494,126 +1492,31 @@
             "/image/product/coffee-40.webp"
         ],
         "discountPercent": 20,
-        "rate": 4.5
-    },
-    {
-        "id": 41,
-        "title": "اتو پاناسونیک ۲۴۰۰ وات نانو",
-        "price": 3760000,
-        "category": "iron",
-        "categorypersian": "اتو و بخارپز",
-        "images": [
-            "/image/product/iron-41.webp"
+        "rate": 4.5,
+        "shippingToday": true,
+        "stock": 14,
+        "insurance": {
+            "hasInsurance": true,
+            "insurancePrice": 62800,
+            "insuranceDiscountPercent": 15
+        },
+        "warranties": [
+            "گارانتی ۱۲ ماهه نستله"
         ],
-        "discountPercent": 0,
-        "rate": 4.3
-    },
-    {
-        "id": 42,
-        "title": "آبگرمکن گازی دیواری ۱۶ لیتری برودر",
-        "price": 14900000,
-        "category": "water_heater",
-        "categorypersian": "آبگرمکن",
-        "images": [
-            "/image/product/wh-42.webp"
+        "description": "قهوه‌ساز کپسولی نستله دولچه گوستو با سیستم پرفشار ۱۵ باری، قابلیت تهیه قهوه گرم و سرد، بسیار متنوع.",
+        "specs": [
+            {
+                "title": "فشار پمپ",
+                "value": "۱۵ بار"
+            },
+            {
+                "title": "ظرفیت مخزن آب",
+                "value": "۱ لیتر"
+            }
         ],
-        "discountPercent": 8,
-        "rate": 4.2
-    },
-    {
-        "id": 43,
-        "title": "یخچال وایزنهاوس ۲۲ فوت",
-        "price": 39800000,
-        "category": "refrigerator",
-        "categorypersian": "یخچال و فریزر",
-        "images": [
-            "/image/product/ref-43.webp"
-        ],
-        "discountPercent": 18,
-        "rate": 4.6
-    },
-    {
-        "id": 44,
-        "title": "لباسشویی هیمالیا ۱۲ کیلویی بخار",
-        "price": 26800000,
-        "category": "washing_machine",
-        "categorypersian": "ماشین لباسشویی",
-        "images": [
-            "/image/product/wash-44.webp"
-        ],
-        "discountPercent": 0,
-        "rate": 4.4
-    },
-    {
-        "id": 45,
-        "title": "جارو رباتیک ای روبو مدل D80",
-        "price": 15900000,
-        "category": "vacuum",
-        "categorypersian": "جاروبرقی",
-        "images": [
-            "/image/product/vac-45.webp"
-        ],
-        "discountPercent": 25,
-        "rate": 4.1
-    },
-    {
-        "id": 46,
-        "title": "مایکروفر گریل دار بوش",
-        "price": 11800000,
-        "category": "microwave",
-        "categorypersian": "مایکروویو و سولاردام",
-        "images": [
-            "/image/product/micro-46.webp"
-        ],
-        "discountPercent": 0,
-        "rate": 4.5
-    },
-    {
-        "id": 47,
-        "title": "قهوه‌ساز اسپرسو گاجیا ۱۵ بار",
-        "price": 8710000,
-        "category": "coffee_maker",
-        "categorypersian": "قهوه‌ساز",
-        "images": [
-            "/image/product/coffee-47.webp"
-        ],
-        "discountPercent": 12,
-        "rate": 4.7
-    },
-    {
-        "id": 48,
-        "title": "اتو بخار سونیو مدل حرفه‌ای",
-        "price": 2920000,
-        "category": "iron",
-        "categorypersian": "اتو و بخارپز",
-        "images": [
-            "/image/product/iron-48.webp"
-        ],
-        "discountPercent": 0,
-        "rate": 3.9
-    },
-    {
-        "id": 49,
-        "title": "آبگرمکن دیواری ۱۵ لیتری بوتان ارس",
-        "price": 10800000,
-        "category": "water_heater",
-        "categorypersian": "آبگرمکن",
-        "images": [
-            "/image/product/wh-49.webp"
-        ],
-        "discountPercent": 10,
-        "rate": 4.1
-    },
-    {
-        "id": 50,
-        "title": "یخچال مینی بار الکترواستیل ۶۰ لیتری",
-        "price": 8350000,
-        "category": "refrigerator",
-        "categorypersian": "یخچال و فریزر",
-        "images": [
-            "/image/product/ref-50.webp"
-        ],
-        "discountPercent": 0,
-        "rate": 4.0
+        "color": {
+            "en": "Red & Black",
+            "fa": "قرمز و مشکی"
+        }
     }
 ]
