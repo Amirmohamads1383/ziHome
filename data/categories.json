@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name_en": "Refrigerator",
+        "name_fa": "یخچال و فریزر",
+        "slug": "refrigerator",
+        "image": "/images/categories/refrigerator.webp"
+    },
+    {
+        "id": 2,
+        "name_en": "Washing Machine",
+        "name_fa": "ماشین لباسشویی",
+        "slug": "washing_machine",
+        "image": "/images/categories/washing_machine.webp"
+    },
+    {
+        "id": 3,
+        "name_en": "Vacuum Cleaner",
+        "name_fa": "جاروبرقی",
+        "slug": "vacuum",
+        "image": "/images/categories/vacuum.webp"
+    },
+    {
+        "id": 4,
+        "name_en": "Microwave",
+        "name_fa": "مایکروویو و سولاردام",
+        "slug": "microwave",
+        "image": "/images/categories/microwave.webp"
+    },
+    {
+        "id": 5,
+        "name_en": "Coffee Maker",
+        "name_fa": "قهوه‌ساز",
+        "slug": "coffee_maker",
+        "image": "/images/categories/coffee_maker.webp"
+    },
+    {
+        "id": 6,
+        "name_en": "Iron",
+        "name_fa": "اتو و بخارپز",
+        "slug": "iron",
+        "image": "/images/categories/iron.webp"
+    },
+    {
+        "id": 7,
+        "name_en": "Water Heater",
+        "name_fa": "آبگرمکن",
+        "slug": "water_heater",
+        "image": "/images/categories/water_heater.webp"
+    }
+]
