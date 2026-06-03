@@ -784,6 +784,7 @@ header .bg-header {
     font-size: 14px;
     line-height: 2rem;
     font-weight: 400;
+    height: 64px;
     color: #52595A;
     overflow: hidden;
     display: -webkit-box;

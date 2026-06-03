@@ -6,8 +6,8 @@
         "category": "refrigerator",
         "categorypersian": "یخچال و فریزر",
         "images": [
-            "/image/product/ref-1.webp",
-            "/image/product/ref-1-1.webp"
+            "/images/product/ref-1.webp",
+            "/images/product/ref-1-1.webp"
         ],
         "discountPercent": 12,
         "rate": 4.7,
@@ -45,12 +45,12 @@
         "category": "washing_machine",
         "categorypersian": "ماشین لباسشویی",
         "images": [
-            "/image/product/wash-2.webp",
-            "/image/product/wash-2-1.webp",
-            "/image/product/wash-2-2.webp",
-            "/image/product/wash-2-3.webp",
-            "/image/product/wash-2-4.webp",
-            "/image/product/wash-2-5.webp"
+            "/images/product/wash-2.webp",
+            "/images/product/wash-2-1.webp",
+            "/images/product/wash-2-2.webp",
+            "/images/product/wash-2-3.webp",
+            "/images/product/wash-2-4.webp",
+            "/images/product/wash-2-5.webp"
         ],
         "discountPercent": 0,
         "rate": 4.9,
@@ -87,9 +87,9 @@
         "category": "vacuum",
         "categorypersian": "جاروبرقی",
         "images": [
-            "/image/product/vac-3.webp",
-            "/image/product/vac-3-1.webp",
-            "/image/product/vac-3-2.webp"
+            "/images/product/vac-3.webp",
+            "/images/product/vac-3-1.webp",
+            "/images/product/vac-3-2.webp"
         ],
         "discountPercent": 20,
         "rate": 4.5,
@@ -126,9 +126,9 @@
         "category": "microwave",
         "categorypersian": "مایکروویو و سولاردام",
         "images": [
-            "/image/product/micro-4.webp",
-            "/image/product/micro-4-1.webp",
-            "/image/product/micro-4-2.webp"
+            "/images/product/micro-4.webp",
+            "/images/product/micro-4-1.webp",
+            "/images/product/micro-4-2.webp"
         ],
         "discountPercent": 5,
         "rate": 4.3,
@@ -165,9 +165,9 @@
         "category": "coffee_maker",
         "categorypersian": "قهوه‌ساز",
         "images": [
-            "/image/product/coffee-5.webp",
-            "/image/product/coffee-5-1.webp",
-            "/image/product/coffee-5-2.webp"
+            "/images/product/coffee-5.webp",
+            "/images/product/coffee-5-1.webp",
+            "/images/product/coffee-5-2.webp"
         ],
         "discountPercent": 15,
         "rate": 4.8,
@@ -205,8 +205,8 @@
         "category": "iron",
         "categorypersian": "اتو و بخارپز",
         "images": [
-            "/image/product/iron-6.webp",
-            "/image/product/iron-6-1.webp"
+            "/images/product/iron-6.webp",
+            "/images/product/iron-6-1.webp"
         ],
         "discountPercent": 25,
         "rate": 4.1,
@@ -243,8 +243,8 @@
         "category": "water_heater",
         "categorypersian": "آبگرمکن",
         "images": [
-            "/image/product/wh-7.webp",
-            "/image/product/wh-7-1.webp"
+            "/images/product/wh-7.webp",
+            "/images/product/wh-7-1.webp"
         ],
         "discountPercent": 0,
         "rate": 4.0,
@@ -281,8 +281,8 @@
         "category": "refrigerator",
         "categorypersian": "یخچال و فریزر",
         "images": [
-            "/image/product/ref-8.webp",
-            "/image/product/ref-8-1.webp"
+            "/images/product/ref-8.webp",
+            "/images/product/ref-8-1.webp"
         ],
         "discountPercent": 10,
         "rate": 4.2,
@@ -319,8 +319,8 @@
         "category": "washing_machine",
         "categorypersian": "ماشین لباسشویی",
         "images": [
-            "/image/product/wash-9.webp",
-            "/image/product/wash-9-1.webp"
+            "/images/product/wash-9.webp",
+            "/images/product/wash-9-1.webp"
         ],
         "discountPercent": 7,
         "rate": 4.0,
@@ -357,8 +357,8 @@
         "category": "vacuum",
         "categorypersian": "جاروبرقی",
         "images": [
-            "/image/product/vac-10.webp",
-            "/image/product/vac-10-1.webp"
+            "/images/product/vac-10.webp",
+            "/images/product/vac-10-1.webp"
         ],
         "discountPercent": 18,
         "rate": 3.9,
@@ -395,12 +395,12 @@
         "category": "microwave",
         "categorypersian": "مایکروویو و سولاردام",
         "images": [
-            "/image/product/micro-11.webp",
-            "/image/product/micro-11-1.webp",
-            "/image/product/micro-11-2.webp",
-            "/image/product/micro-11-3.webp",
-            "/image/product/micro-11-4.webp",
-            "/image/product/micro-11-5.webp"
+            "/images/product/micro-11.webp",
+            "/images/product/micro-11-1.webp",
+            "/images/product/micro-11-2.webp",
+            "/images/product/micro-11-3.webp",
+            "/images/product/micro-11-4.webp",
+            "/images/product/micro-11-5.webp"
         ],
         "discountPercent": 0,
         "rate": 4.4,
@@ -437,9 +437,9 @@
         "category": "coffee_maker",
         "categorypersian": "قهوه‌ساز",
         "images": [
-            "/image/product/coffee-12.webp",
-            "/image/product/coffee-12-1.webp",
-            "/image/product/coffee-12-2.webp"
+            "/images/product/coffee-12.webp",
+            "/images/product/coffee-12-1.webp",
+            "/images/product/coffee-12-2.webp"
         ],
         "discountPercent": 0,
         "rate": 3.8,
@@ -476,7 +476,7 @@
         "category": "iron",
         "categorypersian": "اتو و بخارپز",
         "images": [
-            "/image/product/iron-13.webp"
+            "/images/product/iron-13.webp"
         ],
         "discountPercent": 12,
         "rate": 4.6,
@@ -513,7 +513,7 @@
         "category": "water_heater",
         "categorypersian": "آبگرمکن",
         "images": [
-            "/image/product/wh-14.webp"
+            "/images/product/wh-14.webp"
         ],
         "discountPercent": 10,
         "rate": 4.3,
@@ -550,10 +550,10 @@
         "category": "refrigerator",
         "categorypersian": "یخچال و فریزر",
         "images": [
-            "/image/product/ref-15.webp",
-            "/image/product/ref-15-1.webp",
-            "/image/product/ref-15-2.webp",
-            "/image/product/ref-15-3.webp"
+            "/images/product/ref-15.webp",
+            "/images/product/ref-15-1.webp",
+            "/images/product/ref-15-2.webp",
+            "/images/product/ref-15-3.webp"
         ],
         "discountPercent": 22,
         "rate": 4.9,
@@ -591,9 +591,9 @@
         "category": "washing_machine",
         "categorypersian": "ماشین لباسشویی",
         "images": [
-            "/image/product/wash-16.webp",
-            "/image/product/wash-16-1.webp",
-            "/image/product/wash-16-2.webp"
+            "/images/product/wash-16.webp",
+            "/images/product/wash-16-1.webp",
+            "/images/product/wash-16-2.webp"
         ],
         "discountPercent": 5,
         "rate": 4.8,
@@ -630,9 +630,9 @@
         "category": "vacuum",
         "categorypersian": "جاروبرقی",
         "images": [
-            "/image/product/vac-17.webp",
-            "/image/product/vac-17-1.webp",
-            "/image/product/vac-17-2.webp"
+            "/images/product/vac-17.webp",
+            "/images/product/vac-17-1.webp",
+            "/images/product/vac-17-2.webp"
         ],
         "discountPercent": 15,
         "rate": 4.2,
@@ -669,9 +669,9 @@
         "category": "microwave",
         "categorypersian": "مایکروویو و سولاردام",
         "images": [
-            "/image/product/micro-18.webp",
-            "/image/product/micro-18-1.webp",
-            "/image/product/micro-18-2.webp"
+            "/images/product/micro-18.webp",
+            "/images/product/micro-18-1.webp",
+            "/images/product/micro-18-2.webp"
         ],
         "discountPercent": 0,
         "rate": 4.5,
@@ -708,9 +708,9 @@
         "category": "coffee_maker",
         "categorypersian": "قهوه‌ساز",
         "images": [
-            "/image/product/coffee-19.webp",
-            "/image/product/coffee-19-1.webp",
-            "/image/product/coffee-19-2.webp"
+            "/images/product/coffee-19.webp",
+            "/images/product/coffee-19-1.webp",
+            "/images/product/coffee-19-2.webp"
         ],
         "discountPercent": 8,
         "rate": 4.7,
@@ -747,7 +747,7 @@
         "category": "iron",
         "categorypersian": "اتو و بخارپز",
         "images": [
-            "/image/product/iron-20.webp"
+            "/images/product/iron-20.webp"
         ],
         "discountPercent": 20,
         "rate": 4.0,
@@ -784,7 +784,7 @@
         "category": "water_heater",
         "categorypersian": "آبگرمکن",
         "images": [
-            "/image/product/wh-21.webp"
+            "/images/product/wh-21.webp"
         ],
         "discountPercent": 0,
         "rate": 4.1,
@@ -821,7 +821,7 @@
         "category": "refrigerator",
         "categorypersian": "یخچال و فریزر",
         "images": [
-            "/image/product/ref-22.webp"
+            "/images/product/ref-22.webp"
         ],
         "discountPercent": 14,
         "rate": 4.4,
@@ -858,7 +858,7 @@
         "category": "washing_machine",
         "categorypersian": "ماشین لباسشویی",
         "images": [
-            "/image/product/wash-23.webp"
+            "/images/product/wash-23.webp"
         ],
         "discountPercent": 10,
         "rate": 4.9,
@@ -896,7 +896,7 @@
         "category": "vacuum",
         "categorypersian": "جاروبرقی",
         "images": [
-            "/image/product/vac-24.webp"
+            "/images/product/vac-24.webp"
         ],
         "discountPercent": 0,
         "rate": 3.7,
@@ -933,7 +933,7 @@
         "category": "microwave",
         "categorypersian": "مایکروویو و سولاردام",
         "images": [
-            "/image/product/micro-25.webp"
+            "/images/product/micro-25.webp"
         ],
         "discountPercent": 12,
         "rate": 4.0,
@@ -970,7 +970,7 @@
         "category": "coffee_maker",
         "categorypersian": "قهوه‌ساز",
         "images": [
-            "/image/product/coffee-26.webp"
+            "/images/product/coffee-26.webp"
         ],
         "discountPercent": 0,
         "rate": 3.5,
@@ -1005,7 +1005,7 @@
         "category": "iron",
         "categorypersian": "اتو و بخارپز",
         "images": [
-            "/image/product/iron-27.webp"
+            "/images/product/iron-27.webp"
         ],
         "discountPercent": 25,
         "rate": 4.0,
@@ -1042,7 +1042,7 @@
         "category": "water_heater",
         "categorypersian": "آبگرمکن",
         "images": [
-            "/image/product/wh-28.webp"
+            "/images/product/wh-28.webp"
         ],
         "discountPercent": 0,
         "rate": 4.8,
@@ -1080,7 +1080,7 @@
         "category": "refrigerator",
         "categorypersian": "یخچال و فریزر",
         "images": [
-            "/image/product/ref-29.webp"
+            "/images/product/ref-29.webp"
         ],
         "discountPercent": 5,
         "rate": 3.9,
@@ -1117,7 +1117,7 @@
         "category": "washing_machine",
         "categorypersian": "ماشین لباسشویی",
         "images": [
-            "/image/product/wash-30.webp"
+            "/images/product/wash-30.webp"
         ],
         "discountPercent": 18,
         "rate": 4.2,
@@ -1154,7 +1154,7 @@
         "category": "vacuum",
         "categorypersian": "جاروبرقی",
         "images": [
-            "/image/product/vac-31.webp"
+            "/images/product/vac-31.webp"
         ],
         "discountPercent": 0,
         "rate": 4.6,
@@ -1191,7 +1191,7 @@
         "category": "microwave",
         "categorypersian": "مایکروویو و سولاردام",
         "images": [
-            "/image/product/micro-32.webp"
+            "/images/product/micro-32.webp"
         ],
         "discountPercent": 7,
         "rate": 4.3,
@@ -1228,7 +1228,7 @@
         "category": "coffee_maker",
         "categorypersian": "قهوه‌ساز",
         "images": [
-            "/image/product/coffee-33.webp"
+            "/images/product/coffee-33.webp"
         ],
         "discountPercent": 0,
         "rate": 3.7,
@@ -1265,7 +1265,7 @@
         "category": "iron",
         "categorypersian": "اتو و بخارپز",
         "images": [
-            "/image/product/iron-34.webp"
+            "/images/product/iron-34.webp"
         ],
         "discountPercent": 15,
         "rate": 4.9,
@@ -1302,7 +1302,7 @@
         "category": "water_heater",
         "categorypersian": "آبگرمکن",
         "images": [
-            "/image/product/wh-35.webp"
+            "/images/product/wh-35.webp"
         ],
         "discountPercent": 5,
         "rate": 4.4,
@@ -1339,7 +1339,7 @@
         "category": "refrigerator",
         "categorypersian": "یخچال و فریزر",
         "images": [
-            "/image/product/ref-36.webp"
+            "/images/product/ref-36.webp"
         ],
         "discountPercent": 10,
         "rate": 4.8,
@@ -1377,7 +1377,7 @@
         "category": "washing_machine",
         "categorypersian": "ماشین لباسشویی",
         "images": [
-            "/image/product/wash-37.webp"
+            "/images/product/wash-37.webp"
         ],
         "discountPercent": 0,
         "rate": 4.1,
@@ -1414,7 +1414,7 @@
         "category": "vacuum",
         "categorypersian": "جاروبرقی",
         "images": [
-            "/image/product/vac-38.webp"
+            "/images/product/vac-38.webp"
         ],
         "discountPercent": 12,
         "rate": 4.7,
@@ -1451,7 +1451,7 @@
         "category": "microwave",
         "categorypersian": "مایکروویو و سولاردام",
         "images": [
-            "/image/product/micro-39.webp"
+            "/images/product/micro-39.webp"
         ],
         "discountPercent": 0,
         "rate": 4.9,
@@ -1489,7 +1489,7 @@
         "category": "coffee_maker",
         "categorypersian": "قهوه‌ساز",
         "images": [
-            "/image/product/coffee-40.webp"
+            "/images/product/coffee-40.webp"
         ],
         "discountPercent": 20,
         "rate": 4.5,
