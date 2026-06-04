@@ -8,9 +8,13 @@ const categoryContainer = document.querySelector("#category-container");
 const blogContainer = document.querySelector("#blog-container");
 const mostSaleContainer = document.querySelector("#most-sale-container");
 const mostPopularContainer = document.querySelector("#most-popular-container");
+const secondElem = document.querySelector(".offer-timer-sec-num");
+const minuteElem = document.querySelector(".offer-timer-min-num");
+const hourElem = document.querySelector(".offer-timer-hour-num");
 
 let allProducts = [];
 let allCategories = [];
+const targetDate = new Date(2026, 5, 15, 23, 59, 59);
 
 /* Fetching Data From Data.json */
 const fetchData = async () => {
@@ -243,6 +247,29 @@ const createCategoriesBox = (cat) => {
     `;
 };
 
+/* Timer */
+const timerHandler = () => {
+    const timerInterval = setInterval(timerHandler, 1000);
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    if (distance < 0) {
+        secondElem.textContent = "00";
+        minuteElem.textContent = "00";
+        hourElem.textContent = "00";
+        clearInterval(timerInterval);
+        return;
+    }
+    
+    const hours = Math.floor(distance / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    hourElem.textContent = hours < 10 ? "0" + hours : hours;
+    minuteElem.textContent = minutes < 10 ? "0" + minutes : minutes;
+    secondElem.textContent = seconds < 10 ? "0" + seconds : seconds;
+}
+
 /* Blog Box */
 const createBlogBox = (article) => {
     return `
@@ -285,6 +312,7 @@ window.addEventListener("load", async () => {
     await fetchData();
     await fetchCategoriesData();
     await fetchArticlesData();
+    timerHandler();
 });
 
 navMIcon.addEventListener("click", showOffCanvas);
