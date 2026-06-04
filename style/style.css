@@ -929,6 +929,11 @@ header .bg-header {
     border-radius: 16px;
 }
 
+.category .category-container .category-items .category-item .category-item-img  {
+    width: 200px;
+    height: 200px;
+}
+
 .category .category-container .category-items .category-item .category-item-img img {
     width: 100%;
     height: 100%;
@@ -1069,14 +1074,25 @@ header .bg-header {
 .most-sale-b-tab-content .most-sale-tab-content,
 .most-popular-b-tab-content .most-popular-tab-content {
     display: none;
+}
+
+.products-grid {
+    display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
     column-gap: 8px;
 }
 
+.no-products {
+    text-align: center;
+    padding: 40px;
+    color: #999;
+    font-size: 16px;
+}
+
 .most-sale-tab-content.active,
 .most-popular-tab-content.active {
-    display: grid;
+    display: block;
 }
 
 /* Ene Most Sale */
@@ -3495,8 +3511,8 @@ align-items: flex-start;
 
 @media screen and (min-width : 640px) {
 
-    .most-sale-b-tab-content .most-sale-tab-content,
-    .most-popular-b-tab-content .most-popular-tab-content {
+    .most-sale-b-tab-content .most-sale-tab-content .products-grid,
+    .most-popular-b-tab-content .most-popular-tab-content  .products-grid{
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 10px;
     }
@@ -3655,8 +3671,8 @@ align-items: flex-start;
         font-weight: 400;
     }
 
-    .most-sale-b-tab-content .most-sale-tab-content,
-    .most-popular-b-tab-content .most-popular-tab-content {
+    .most-sale-b-tab-content .most-sale-tab-content .products-grid,
+    .most-popular-b-tab-content .most-popular-tab-content .products-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 20px;
     }
@@ -3811,8 +3827,8 @@ align-items: flex-start;
         width: 72%;
     }
 
-    .most-sale-b-tab-content .most-sale-tab-content,
-    .most-popular-b-tab-content .most-popular-tab-content {
+    .most-sale-b-tab-content .most-sale-tab-content .products-grid,
+    .most-popular-b-tab-content .most-popular-tab-content .products-grid {
         grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 24px;
     }

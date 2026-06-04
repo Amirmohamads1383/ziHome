@@ -9,6 +9,8 @@ const addToBasketModal = document.querySelector(".add-to-basket-modal");
 const addToBasketBtn = document.querySelector(".single-sidebar-add-to-cart-btn");
 
 const closeAddToBasketModalIcon = document.querySelector(".close-add-to-basket-modal");
+const specTitles = document.querySelectorAll(".spec-title");
+const specContents = document.querySelectorAll(".spec-content");
 
 const count = document.querySelector(".count");
 
@@ -432,6 +434,17 @@ const closeAddToBasketModal = (e) => {
 const showCount = () => {
     count.classList.add("active");
 }
+
+specTitles.forEach((tabTitle, index) => {
+    tabTitle.addEventListener("click", function () {
+        document.querySelector(".spec-title.active")?.classList.remove("active");
+        document.querySelector(".spec-content.active")?.classList.remove("active");
+        this.classList.add("active");
+        if (specContents[index]) {
+            specContents[index].classList.add("active");
+        }
+    });
+});
 
 closeAddToBasketModalIcon.addEventListener("click", closeAddToBasketModal);
 document.addEventListener("keydown", closeAddToBasketModal);
