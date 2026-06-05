@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/category.css">
+    <link rel="stylesheet" href="style/shop.css">
 </head>
 
 <body>
@@ -715,7 +715,7 @@
 
                     <div class="filters__header">
                         <h3>فیلتر ها</h3>
-                        <div class="filters__icon">
+                        <div class="filters__icon" id="remove-filters">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none">
                                 <path d="M8 14L10 12L8 10" stroke="#292C2D" stroke-width="1.5" stroke-linecap="round"
@@ -737,10 +737,8 @@
                             <span>دسته بندی</span>
                             <span class="arrow"></span>
                         </div>
-                        <div class="filters__content">
-                            <label><input type="checkbox"> سرخ کن</label>
-                            <label><input type="checkbox"> سرویس قابلمه</label>
-                            <label><input type="checkbox"> اجاق گاز</label>
+                        <div class="filters__content" id="cat-filter-container">
+                            <!-- Loaded From JS -->
                         </div>
                     </div>
 
@@ -751,19 +749,10 @@
                             <span class="arrow"></span>
                         </div>
                         <div class="filters__content">
-                            <input type="range">
-                        </div>
-                    </div>
-
-                    <!-- برند -->
-                    <div class="filters__item">
-                        <div class="filters__toggle">
-                            <span>برند</span>
-                            <span class="arrow"></span>
-                        </div>
-                        <div class="filters__content">
-                            <label><input type="checkbox"> فیلیپس</label>
-                            <label><input type="checkbox"> سامسونگ</label>
+                            <input type="range" id="price-range-input" step="1000000" value="1000000" min="1000000" max="100000000">
+                            <h5>
+                                محدوده قیمت تا : <span class="price-range">1,000,000</span>
+                            </h5>
                         </div>
                     </div>
 
@@ -771,7 +760,7 @@
                     <div class="filters__switch">
                         <span>فقط کالا های موجود</span>
                         <label class="switch">
-                            <input type="checkbox">
+                            <input type="checkbox" id="stock-product">
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -779,7 +768,7 @@
                     <div class="filters__switch">
                         <span>کالاهای تخفیف دار</span>
                         <label class="switch">
-                            <input type="checkbox">
+                            <input type="checkbox" id="discount-product">
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -787,448 +776,24 @@
                     <div class="filters__switch">
                         <span>ارسال امروز</span>
                         <label class="switch">
-                            <input type="checkbox">
+                            <input type="checkbox" id="today-send">
                             <span class="slider"></span>
                         </label>
+                    </div>
+
+                    <div class="filter-btn-container">
+                        <button class="filter-btn" id="filter-btn">اعمال فیلتر ها </button>
                     </div>
 
                 </aside>
 
                 <!-- Products -->
-                <div class="products">
-                    <div class="product">
-                        <div class="product-img">
-                            <img src="images/product-1.png" alt="">
-                        </div>
-                        <div class="product-detail">
-                            <div class="product-title">
-                                <h3>
-                                    قهوه ساز دلونگی
-                                    N-lITE 203 aIRlINKS
-                                </h3>
-                            </div>
-                            <div class="product-price">
-                                <div class="product-price-dis">
-                                    <div class="dis-product">
-                                        <span>۲,۴۰۰,۰۰۰</span>
-                                    </div>
-                                    <div class="main-price">
-                                        <div class="dis">
-                                            <span>30%</span>
-                                        </div>
-                                        <div>
-                                            <span class="price">
-                                                <span class="price-value">۱,۶۴۰,۰۰۰ </span>
-                                                <span class="price-currency">تومان</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="product-price"></div> -->
-                            </div>
-                        </div>
-                        <div class="rate">
-                            <span>
-                                4.3
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                                    fill="none">
-                                    <path
-                                        d="M5.928 3.119C6.878 1.415 7.353.563 8.063.563s1.185.852 2.135 2.556l.246.44c.27.485.405.727.615.887s.473.219.997.338l.477.108c1.845.417 2.768.626 2.987 1.331.22.706-.41 1.441-1.667 2.912l-.325.38c-.358.418-.537.627-.617.886-.08.258-.053.537 0 1.095l.05.507c.19 1.962.285 2.944-.29 3.38-.574.436-1.437.038-3.165-.757l-.447-.206c-.49-.226-.736-.339-.996-.339s-.506.113-.996.34l-.447.205c-1.728.795-2.591 1.193-3.166.757s-.48-1.418-.289-3.38l.05-.507c.053-.558.08-.837 0-1.095-.08-.259-.26-.468-.617-.886l-.325-.38C1.015 7.665.387 6.929.606 6.223c.22-.705 1.142-.914 2.987-1.331l.477-.108c.524-.12.786-.178.997-.338s.345-.402.615-.886z"
-                                        stroke="#ec8514" stroke-width="1.125"></path>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product-img">
-                            <img src="images/product-1.png" alt="">
-                        </div>
-                        <div class="product-detail">
-                            <div class="product-title">
-                                <h3>
-                                    قهوه ساز دلونگی
-                                    N-lITE 203 aIRlINKS
-                                </h3>
-                            </div>
-                            <div class="product-price">
-                                <div class="product-price-dis">
-                                    <div class="dis-product">
-                                        <span>۲,۴۰۰,۰۰۰</span>
-                                    </div>
-                                    <div class="main-price">
-                                        <div class="dis">
-                                            <span>30%</span>
-                                        </div>
-                                        <div>
-                                            <span class="price">
-                                                <span class="price-value">۱,۶۴۰,۰۰۰ </span>
-                                                <span class="price-currency">تومان</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="product-price"></div> -->
-                            </div>
-                        </div>
-                        <div class="rate">
-                            <span>
-                                4.3
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                                    fill="none">
-                                    <path
-                                        d="M5.928 3.119C6.878 1.415 7.353.563 8.063.563s1.185.852 2.135 2.556l.246.44c.27.485.405.727.615.887s.473.219.997.338l.477.108c1.845.417 2.768.626 2.987 1.331.22.706-.41 1.441-1.667 2.912l-.325.38c-.358.418-.537.627-.617.886-.08.258-.053.537 0 1.095l.05.507c.19 1.962.285 2.944-.29 3.38-.574.436-1.437.038-3.165-.757l-.447-.206c-.49-.226-.736-.339-.996-.339s-.506.113-.996.34l-.447.205c-1.728.795-2.591 1.193-3.166.757s-.48-1.418-.289-3.38l.05-.507c.053-.558.08-.837 0-1.095-.08-.259-.26-.468-.617-.886l-.325-.38C1.015 7.665.387 6.929.606 6.223c.22-.705 1.142-.914 2.987-1.331l.477-.108c.524-.12.786-.178.997-.338s.345-.402.615-.886z"
-                                        stroke="#ec8514" stroke-width="1.125"></path>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product-img">
-                            <img src="images/product-1.png" alt="">
-                        </div>
-                        <div class="product-detail">
-                            <div class="product-title">
-                                <h3>
-                                    قهوه ساز دلونگی
-                                    N-lITE 203 aIRlINKS
-                                </h3>
-                            </div>
-                            <div class="product-price">
-                                <div class="product-price-dis">
-                                    <div class="dis-product">
-                                        <span>۲,۴۰۰,۰۰۰</span>
-                                    </div>
-                                    <div class="main-price">
-                                        <div class="dis">
-                                            <span>30%</span>
-                                        </div>
-                                        <div>
-                                            <span class="price">
-                                                <span class="price-value">۱,۶۴۰,۰۰۰ </span>
-                                                <span class="price-currency">تومان</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="product-price"></div> -->
-                            </div>
-                        </div>
-                        <div class="rate">
-                            <span>
-                                4.3
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                                    fill="none">
-                                    <path
-                                        d="M5.928 3.119C6.878 1.415 7.353.563 8.063.563s1.185.852 2.135 2.556l.246.44c.27.485.405.727.615.887s.473.219.997.338l.477.108c1.845.417 2.768.626 2.987 1.331.22.706-.41 1.441-1.667 2.912l-.325.38c-.358.418-.537.627-.617.886-.08.258-.053.537 0 1.095l.05.507c.19 1.962.285 2.944-.29 3.38-.574.436-1.437.038-3.165-.757l-.447-.206c-.49-.226-.736-.339-.996-.339s-.506.113-.996.34l-.447.205c-1.728.795-2.591 1.193-3.166.757s-.48-1.418-.289-3.38l.05-.507c.053-.558.08-.837 0-1.095-.08-.259-.26-.468-.617-.886l-.325-.38C1.015 7.665.387 6.929.606 6.223c.22-.705 1.142-.914 2.987-1.331l.477-.108c.524-.12.786-.178.997-.338s.345-.402.615-.886z"
-                                        stroke="#ec8514" stroke-width="1.125"></path>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product-img">
-                            <img src="images/product-1.png" alt="">
-                        </div>
-                        <div class="product-detail">
-                            <div class="product-title">
-                                <h3>
-                                    قهوه ساز دلونگی
-                                    N-lITE 203 aIRlINKS
-                                </h3>
-                            </div>
-                            <div class="product-price">
-                                <div class="product-price-dis">
-                                    <div class="dis-product">
-                                        <span>۲,۴۰۰,۰۰۰</span>
-                                    </div>
-                                    <div class="main-price">
-                                        <div class="dis">
-                                            <span>30%</span>
-                                        </div>
-                                        <div>
-                                            <span class="price">
-                                                <span class="price-value">۱,۶۴۰,۰۰۰ </span>
-                                                <span class="price-currency">تومان</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="product-price"></div> -->
-                            </div>
-                        </div>
-                        <div class="rate">
-                            <span>
-                                4.3
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                                    fill="none">
-                                    <path
-                                        d="M5.928 3.119C6.878 1.415 7.353.563 8.063.563s1.185.852 2.135 2.556l.246.44c.27.485.405.727.615.887s.473.219.997.338l.477.108c1.845.417 2.768.626 2.987 1.331.22.706-.41 1.441-1.667 2.912l-.325.38c-.358.418-.537.627-.617.886-.08.258-.053.537 0 1.095l.05.507c.19 1.962.285 2.944-.29 3.38-.574.436-1.437.038-3.165-.757l-.447-.206c-.49-.226-.736-.339-.996-.339s-.506.113-.996.34l-.447.205c-1.728.795-2.591 1.193-3.166.757s-.48-1.418-.289-3.38l.05-.507c.053-.558.08-.837 0-1.095-.08-.259-.26-.468-.617-.886l-.325-.38C1.015 7.665.387 6.929.606 6.223c.22-.705 1.142-.914 2.987-1.331l.477-.108c.524-.12.786-.178.997-.338s.345-.402.615-.886z"
-                                        stroke="#ec8514" stroke-width="1.125"></path>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product-img">
-                            <img src="images/product-1.png" alt="">
-                        </div>
-                        <div class="product-detail">
-                            <div class="product-title">
-                                <h3>
-                                    قهوه ساز دلونگی
-                                    N-lITE 203 aIRlINKS
-                                </h3>
-                            </div>
-                            <div class="product-price">
-                                <div class="product-price-dis">
-                                    <div class="dis-product">
-                                        <span>۲,۴۰۰,۰۰۰</span>
-                                    </div>
-                                    <div class="main-price">
-                                        <div class="dis">
-                                            <span>30%</span>
-                                        </div>
-                                        <div>
-                                            <span class="price">
-                                                <span class="price-value">۱,۶۴۰,۰۰۰ </span>
-                                                <span class="price-currency">تومان</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="product-price"></div> -->
-                            </div>
-                        </div>
-                        <div class="rate">
-                            <span>
-                                4.3
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                                    fill="none">
-                                    <path
-                                        d="M5.928 3.119C6.878 1.415 7.353.563 8.063.563s1.185.852 2.135 2.556l.246.44c.27.485.405.727.615.887s.473.219.997.338l.477.108c1.845.417 2.768.626 2.987 1.331.22.706-.41 1.441-1.667 2.912l-.325.38c-.358.418-.537.627-.617.886-.08.258-.053.537 0 1.095l.05.507c.19 1.962.285 2.944-.29 3.38-.574.436-1.437.038-3.165-.757l-.447-.206c-.49-.226-.736-.339-.996-.339s-.506.113-.996.34l-.447.205c-1.728.795-2.591 1.193-3.166.757s-.48-1.418-.289-3.38l.05-.507c.053-.558.08-.837 0-1.095-.08-.259-.26-.468-.617-.886l-.325-.38C1.015 7.665.387 6.929.606 6.223c.22-.705 1.142-.914 2.987-1.331l.477-.108c.524-.12.786-.178.997-.338s.345-.402.615-.886z"
-                                        stroke="#ec8514" stroke-width="1.125"></path>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product-img">
-                            <img src="images/product-1.png" alt="">
-                        </div>
-                        <div class="product-detail">
-                            <div class="product-title">
-                                <h3>
-                                    قهوه ساز دلونگی
-                                    N-lITE 203 aIRlINKS
-                                </h3>
-                            </div>
-                            <div class="product-price">
-                                <div class="product-price-dis">
-                                    <div class="dis-product">
-                                        <span>۲,۴۰۰,۰۰۰</span>
-                                    </div>
-                                    <div class="main-price">
-                                        <div class="dis">
-                                            <span>30%</span>
-                                        </div>
-                                        <div>
-                                            <span class="price">
-                                                <span class="price-value">۱,۶۴۰,۰۰۰ </span>
-                                                <span class="price-currency">تومان</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="product-price"></div> -->
-                            </div>
-                        </div>
-                        <div class="rate">
-                            <span>
-                                4.3
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                                    fill="none">
-                                    <path
-                                        d="M5.928 3.119C6.878 1.415 7.353.563 8.063.563s1.185.852 2.135 2.556l.246.44c.27.485.405.727.615.887s.473.219.997.338l.477.108c1.845.417 2.768.626 2.987 1.331.22.706-.41 1.441-1.667 2.912l-.325.38c-.358.418-.537.627-.617.886-.08.258-.053.537 0 1.095l.05.507c.19 1.962.285 2.944-.29 3.38-.574.436-1.437.038-3.165-.757l-.447-.206c-.49-.226-.736-.339-.996-.339s-.506.113-.996.34l-.447.205c-1.728.795-2.591 1.193-3.166.757s-.48-1.418-.289-3.38l.05-.507c.053-.558.08-.837 0-1.095-.08-.259-.26-.468-.617-.886l-.325-.38C1.015 7.665.387 6.929.606 6.223c.22-.705 1.142-.914 2.987-1.331l.477-.108c.524-.12.786-.178.997-.338s.345-.402.615-.886z"
-                                        stroke="#ec8514" stroke-width="1.125"></path>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product-img">
-                            <img src="images/product-1.png" alt="">
-                        </div>
-                        <div class="product-detail">
-                            <div class="product-title">
-                                <h3>
-                                    قهوه ساز دلونگی
-                                    N-lITE 203 aIRlINKS
-                                </h3>
-                            </div>
-                            <div class="product-price">
-                                <div class="product-price-dis">
-                                    <div class="dis-product">
-                                        <span>۲,۴۰۰,۰۰۰</span>
-                                    </div>
-                                    <div class="main-price">
-                                        <div class="dis">
-                                            <span>30%</span>
-                                        </div>
-                                        <div>
-                                            <span class="price">
-                                                <span class="price-value">۱,۶۴۰,۰۰۰ </span>
-                                                <span class="price-currency">تومان</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="product-price"></div> -->
-                            </div>
-                        </div>
-                        <div class="rate">
-                            <span>
-                                4.3
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                                    fill="none">
-                                    <path
-                                        d="M5.928 3.119C6.878 1.415 7.353.563 8.063.563s1.185.852 2.135 2.556l.246.44c.27.485.405.727.615.887s.473.219.997.338l.477.108c1.845.417 2.768.626 2.987 1.331.22.706-.41 1.441-1.667 2.912l-.325.38c-.358.418-.537.627-.617.886-.08.258-.053.537 0 1.095l.05.507c.19 1.962.285 2.944-.29 3.38-.574.436-1.437.038-3.165-.757l-.447-.206c-.49-.226-.736-.339-.996-.339s-.506.113-.996.34l-.447.205c-1.728.795-2.591 1.193-3.166.757s-.48-1.418-.289-3.38l.05-.507c.053-.558.08-.837 0-1.095-.08-.259-.26-.468-.617-.886l-.325-.38C1.015 7.665.387 6.929.606 6.223c.22-.705 1.142-.914 2.987-1.331l.477-.108c.524-.12.786-.178.997-.338s.345-.402.615-.886z"
-                                        stroke="#ec8514" stroke-width="1.125"></path>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product-img">
-                            <img src="images/product-1.png" alt="">
-                        </div>
-                        <div class="product-detail">
-                            <div class="product-title">
-                                <h3>
-                                    قهوه ساز دلونگی
-                                    N-lITE 203 aIRlINKS
-                                </h3>
-                            </div>
-                            <div class="product-price">
-                                <div class="product-price-dis">
-                                    <div class="dis-product">
-                                        <span>۲,۴۰۰,۰۰۰</span>
-                                    </div>
-                                    <div class="main-price">
-                                        <div class="dis">
-                                            <span>30%</span>
-                                        </div>
-                                        <div>
-                                            <span class="price">
-                                                <span class="price-value">۱,۶۴۰,۰۰۰ </span>
-                                                <span class="price-currency">تومان</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="product-price"></div> -->
-                            </div>
-                        </div>
-                        <div class="rate">
-                            <span>
-                                4.3
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                                    fill="none">
-                                    <path
-                                        d="M5.928 3.119C6.878 1.415 7.353.563 8.063.563s1.185.852 2.135 2.556l.246.44c.27.485.405.727.615.887s.473.219.997.338l.477.108c1.845.417 2.768.626 2.987 1.331.22.706-.41 1.441-1.667 2.912l-.325.38c-.358.418-.537.627-.617.886-.08.258-.053.537 0 1.095l.05.507c.19 1.962.285 2.944-.29 3.38-.574.436-1.437.038-3.165-.757l-.447-.206c-.49-.226-.736-.339-.996-.339s-.506.113-.996.34l-.447.205c-1.728.795-2.591 1.193-3.166.757s-.48-1.418-.289-3.38l.05-.507c.053-.558.08-.837 0-1.095-.08-.259-.26-.468-.617-.886l-.325-.38C1.015 7.665.387 6.929.606 6.223c.22-.705 1.142-.914 2.987-1.331l.477-.108c.524-.12.786-.178.997-.338s.345-.402.615-.886z"
-                                        stroke="#ec8514" stroke-width="1.125"></path>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product-img">
-                            <img src="images/product-1.png" alt="">
-                        </div>
-                        <div class="product-detail">
-                            <div class="product-title">
-                                <h3>
-                                    قهوه ساز دلونگی
-                                    N-lITE 203 aIRlINKS
-                                </h3>
-                            </div>
-                            <div class="product-price">
-                                <div class="product-price-dis">
-                                    <div class="dis-product">
-                                        <span>۲,۴۰۰,۰۰۰</span>
-                                    </div>
-                                    <div class="main-price">
-                                        <div class="dis">
-                                            <span>30%</span>
-                                        </div>
-                                        <div>
-                                            <span class="price">
-                                                <span class="price-value">۱,۶۴۰,۰۰۰ </span>
-                                                <span class="price-currency">تومان</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="product-price"></div> -->
-                            </div>
-                        </div>
-                        <div class="rate">
-                            <span>
-                                4.3
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                                    fill="none">
-                                    <path
-                                        d="M5.928 3.119C6.878 1.415 7.353.563 8.063.563s1.185.852 2.135 2.556l.246.44c.27.485.405.727.615.887s.473.219.997.338l.477.108c1.845.417 2.768.626 2.987 1.331.22.706-.41 1.441-1.667 2.912l-.325.38c-.358.418-.537.627-.617.886-.08.258-.053.537 0 1.095l.05.507c.19 1.962.285 2.944-.29 3.38-.574.436-1.437.038-3.165-.757l-.447-.206c-.49-.226-.736-.339-.996-.339s-.506.113-.996.34l-.447.205c-1.728.795-2.591 1.193-3.166.757s-.48-1.418-.289-3.38l.05-.507c.053-.558.08-.837 0-1.095-.08-.259-.26-.468-.617-.886l-.325-.38C1.015 7.665.387 6.929.606 6.223c.22-.705 1.142-.914 2.987-1.331l.477-.108c.524-.12.786-.178.997-.338s.345-.402.615-.886z"
-                                        stroke="#ec8514" stroke-width="1.125"></path>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product-img">
-                            <img src="images/product-1.png" alt="">
-                        </div>
-                        <div class="product-detail">
-                            <div class="product-title">
-                                <h3>
-                                    قهوه ساز دلونگی
-                                    N-lITE 203 aIRlINKS
-                                </h3>
-                            </div>
-                            <div class="product-price">
-                                <div class="product-price-dis">
-                                    <div class="dis-product">
-                                        <span>۲,۴۰۰,۰۰۰</span>
-                                    </div>
-                                    <div class="main-price">
-                                        <div class="dis">
-                                            <span>30%</span>
-                                        </div>
-                                        <div>
-                                            <span class="price">
-                                                <span class="price-value">۱,۶۴۰,۰۰۰ </span>
-                                                <span class="price-currency">تومان</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="product-price"></div> -->
-                            </div>
-                        </div>
-                        <div class="rate">
-                            <span>
-                                4.3
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
-                                    fill="none">
-                                    <path
-                                        d="M5.928 3.119C6.878 1.415 7.353.563 8.063.563s1.185.852 2.135 2.556l.246.44c.27.485.405.727.615.887s.473.219.997.338l.477.108c1.845.417 2.768.626 2.987 1.331.22.706-.41 1.441-1.667 2.912l-.325.38c-.358.418-.537.627-.617.886-.08.258-.053.537 0 1.095l.05.507c.19 1.962.285 2.944-.29 3.38-.574.436-1.437.038-3.165-.757l-.447-.206c-.49-.226-.736-.339-.996-.339s-.506.113-.996.34l-.447.205c-1.728.795-2.591 1.193-3.166.757s-.48-1.418-.289-3.38l.05-.507c.053-.558.08-.837 0-1.095-.08-.259-.26-.468-.617-.886l-.325-.38C1.015 7.665.387 6.929.606 6.223c.22-.705 1.142-.914 2.987-1.331l.477-.108c.524-.12.786-.178.997-.338s.345-.402.615-.886z"
-                                        stroke="#ec8514" stroke-width="1.125"></path>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
+                <div class="products" id="shop-products-container">
+                    <!-- Loaded From JS -->
                 </div>
                 
             </section>
+            <ul class="pagination-items"></ul>
         </div>
     </main>
 
@@ -1507,7 +1072,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/shop.js"></script>
+    <script src="js/shop.js" type="module"></script>
 </body>
 
 </html>

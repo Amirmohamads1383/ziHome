@@ -20,7 +20,7 @@ const createProductCard = (product) => {
                                 </div>
                                 <div>
                                     <span class="price">
-                                        <span class="price-value">۱,۶۴۰,۰۰۰ </span>
+                                        <span class="price-value">${product.price.toLocaleString()}</span>
                                         <span class="price-currency">تومان</span>
                                     </span>
                                 </div>
