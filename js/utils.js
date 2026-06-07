@@ -7,12 +7,15 @@ const createProductCard = (product) => {
                 </div>
                 <div class="product-detail">
                     <div class="product-title">
-                        <h3>${product.title}</h3>
+                        <h3>
+                           <a href ="single.html?id=${product.id}">${product.title}</a>
+                        </h3>
                     </div>
                     <div class="product-price">
+                        ${product.discountPercent > 0 ? `
                         <div class="product-price-dis">
                             <div class="dis-product">
-                                <span>۲,۴۰۰,۰۰۰</span>
+                                <span>${product.price.toLocaleString()}</span>
                             </div>
                             <div class="main-price">
                                 <div class="dis">
@@ -20,13 +23,21 @@ const createProductCard = (product) => {
                                 </div>
                                 <div>
                                     <span class="price">
-                                        <span class="price-value">${product.price.toLocaleString()}</span>
+                                        <span class="price-value">${(product.price - (product.price * (product.discountPercent / 100))).toLocaleString()}</span>
                                         <span class="price-currency">تومان</span>
                                     </span>
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="product-price"></div> -->
+                        ` :
+            `
+                            <div class="main-price">
+                                <span class="price">
+                                    <span class="price-value">${product.price.toLocaleString()}</span>
+                                    <span class="price-currency">تومان</span>
+                                </span>
+                            </div>
+                        `}
                     </div>
                 </div>
                 <div class="rate">
@@ -45,4 +56,4 @@ const createProductCard = (product) => {
     `
 }
 
-export {createProductCard}
+export { createProductCard }
