@@ -933,7 +933,7 @@ header .bg-header {
     border-radius: 16px;
 }
 
-.category .category-container .category-items .category-item .category-item-img  {
+.category .category-container .category-items .category-item .category-item-img {
     width: 200px;
     height: 200px;
 }
@@ -1855,6 +1855,7 @@ body.modal-open {
     font-size: 14px;
     font-weight: 400;
     color: #0038BC;
+    outline: none;
 }
 
 .insurance-sidebar .insurance-sidebar-c {
@@ -1896,8 +1897,9 @@ body.modal-open {
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(5px);
     transition: all 200ms ease-in-out;
-    z-index: 100;
+    z-index: 200;
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
     -ms-transition: all 200ms ease-in-out;
@@ -2048,7 +2050,8 @@ body.modal-open {
     justify-content: center;
     background: rgba(0, 0, 0, 0.35);
     transition: all 200ms ease-in-out;
-    z-index: 100;
+    z-index: 200;
+    backdrop-filter: blur(2px);
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
     -ms-transition: all 200ms ease-in-out;
@@ -2122,6 +2125,10 @@ body.modal-open {
     font-size: 14px;
     font-weight: 400;
     color: #292C2D;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
 }
 
 .add-to-basket-modal .add-to-basket-modal-container .add-to-basket-modal-b .add-to-basket-modal-price-container {
@@ -2283,6 +2290,7 @@ body.modal-open {
     background-color: #DC2655;
     color: #FFFFFF;
     border-radius: 8px;
+    outline: none;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
@@ -3117,7 +3125,7 @@ body.modal-open {
 
 .cart-content .cart-content-r .cart-content-item {
     display: flex;
-align-items: flex-start;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 24px;
     padding: 32px;
@@ -3245,7 +3253,7 @@ align-items: flex-start;
 .cart-content .cart-content-l .cart-content-l-prices .cart-content-product-price .cart-content-product-price-title,
 .cart-content .cart-content-l .cart-content-l-prices .cart-content-product-insurse-price .cart-content-insurse-price-title,
 .cart-content .cart-content-l .cart-content-product-price .cart-content-product-price-title,
-.cart-content .cart-content-l .cart-content-product-profit .cart-content-profit-title{
+.cart-content .cart-content-l .cart-content-product-profit .cart-content-profit-title {
     color: #000;
     font-size: 16px;
     font-weight: 600;
@@ -3286,8 +3294,8 @@ align-items: flex-start;
     padding-bottom: 16px;
 }
 
-.cart-content-product-profit .cart-content-profit-title ,
-.cart-content-product-profit .cart-content-profit-container span{
+.cart-content-product-profit .cart-content-profit-title,
+.cart-content-product-profit .cart-content-profit-container span {
     color: #008364 !important;
 }
 
@@ -3331,7 +3339,7 @@ align-items: flex-start;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 16px;    
+    gap: 16px;
 }
 
 .login .login-container .login-t .login-t-title-container {
@@ -3350,7 +3358,7 @@ align-items: flex-start;
 .login .login-container .login-t .login-t-text span {
     font-size: 18px;
     font-weight: 400;
-    color: #676f71;    
+    color: #676f71;
 }
 
 .login .login-container .login-b {
@@ -3368,7 +3376,7 @@ align-items: flex-start;
     -o-border-radius: 24px;
 }
 
-.login .login-container .login-b .login-b-title-container span{
+.login .login-container .login-b .login-b-title-container span {
     font-size: 18px;
     font-weight: 600;
     color: #3e4344;
@@ -3426,7 +3434,7 @@ align-items: flex-start;
     -o-border-radius: 16px;
 }
 
-.login .login-container .login-b .login-b-input-container form button:disabled{
+.login .login-container .login-b .login-b-input-container form button:disabled {
     opacity: 50%;
     cursor: not-allowed;
 }
@@ -3442,7 +3450,7 @@ align-items: flex-start;
 }
 
 .login .login-container .login-b .one-pass,
-.login .login-container .login-b .forget-pass , 
+.login .login-container .login-b .forget-pass,
 .login .login-container .login-b .enter-pass {
     display: flex;
     align-items: center;
@@ -3509,6 +3517,63 @@ align-items: flex-start;
 
 /* End Login */
 
+/* Start loader */
+
+.loading-wave {
+    display: none;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.434);
+    backdrop-filter: blur(5px);
+    z-index: 300;
+}
+
+.loading-wave.active {
+    display: flex;
+}
+
+.loading-bar {
+    width: 20px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #dc2655;
+    border-radius: 5px;
+    animation: loading-wave-animation 1s ease-in-out infinite;
+}
+
+.loading-bar:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.loading-bar:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.loading-bar:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+@keyframes loading-wave-animation {
+    0% {
+        height: 10px;
+    }
+
+    50% {
+        height: 50px;
+    }
+
+    100% {
+        height: 10px;
+    }
+}
+
+
+/* End Loader */
+
 
 /* Responsive */
 
@@ -3524,7 +3589,7 @@ align-items: flex-start;
 @media screen and (min-width : 640px) {
 
     .most-sale-b-tab-content .most-sale-tab-content .products-grid,
-    .most-popular-b-tab-content .most-popular-tab-content  .products-grid{
+    .most-popular-b-tab-content .most-popular-tab-content .products-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 10px;
     }

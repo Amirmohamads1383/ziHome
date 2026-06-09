@@ -2,45 +2,24 @@ import { createProductCard } from "./utils.js";
 
 const SingleContainer = document.querySelector(".single-container");
 const otherProductContainer = document.querySelector("#other-product-container");
+const specTitles = document.querySelectorAll(".spec-title");
+const specContents = document.querySelectorAll(".spec-content");
+const descProduct = document.querySelector("#desc-product");
+const productFeature = document.querySelector("#product-specs");
+const addBasketModal = document.querySelector(".add-to-basket-modal")
+const closeAddBasketModalIcon = document.querySelector(".close-add-to-basket-modal");
+const Loader = document.querySelector("#Loader");
+const insuranceModal = document.querySelector(".insurance-modal");
+const closeInsuranceModal = document.querySelector(".close-insurance-modal");
+const priceInsuranceModal = document.querySelector(".price-insurance");
+const addBasketModalImg = document.querySelector(".add-to-basket-modal-pro-img img");
+const addBasketModalTitle = document.querySelector(".add-to-basket-modal-pro-title span");
+const addBasketModalPrice = document.querySelector(".add-to-basket-modal-price")
+
 /* const insuranceInfoBtn = document.querySelector(".insurance-sidebar-h-info button");
 const insuranceModal = document.querySelector(".insurance-modal");
 const closeInsuranceModalIcon = document.querySelector(".close-insurance-modal");
-const addToBasketModal = document.querySelector(".add-to-basket-modal");
-const addToBasketBtn = document.querySelector(".single-sidebar-add-to-cart-btn");
-const closeAddToBasketModalIcon = document.querySelector(".close-add-to-basket-modal");
-const specTitles = document.querySelectorAll(".spec-title");
-const specContents = document.querySelectorAll(".spec-content");
-const count = document.querySelector(".count"); */
-
-/* document.addEventListener("DOMContentLoaded", function () {
-
-    const galleryItems = document.querySelectorAll('.single-p-gallery-item');
-    const moreBox = document.querySelector('.gallery-more-count');
-    const moreNumber = document.querySelector('.gallery-more-count-number');
-
-    if (!moreBox || !moreNumber) return;
-
-    const totalImages = galleryItems.length;
-
-    if (totalImages <= 3) {
-
-        moreBox.style.display = "none";
-
-    } else {
-
-        const remaining = totalImages - 3;
-        moreNumber.textContent = remaining;
-
-        galleryItems.forEach((item, index) => {
-            if (index > 2) {
-                item.style.display = "none";
-            }
-        });
-
-        moreBox.style.display = "flex";
-    }
-
-}); */
+ */
 
 /* document.addEventListener("DOMContentLoaded", function () {
 
@@ -393,6 +372,7 @@ const count = document.querySelector(".count"); */
 
 }); */
 
+/* Fetching Data */
 const fetchData = async () => {
     try {
         const response = await fetch("../data/data.json");
@@ -421,13 +401,13 @@ const fetchData = async () => {
                             <img src="${product.images[0]}" alt="">
                         </div>
                         <div class="single-p-gallery">
-                            ${product.images.slice(0 , 3).map((img, index) => `
+                            ${product.images.slice(0, 3).map((img, index) => `
                                 <div class="single-p-gallery-item">
                                     <img class="other-images-single-product" src="${img}" alt="${product.title}">
                                 </div>
                             `).join("") || ""}
-                            ${product.images.length > 4 ? 
-                            `
+                            ${product.images.length > 4 ?
+                `
                             <div class="gallery-more-count" style="display :${product.images.length > 4 ? "flex" : "none"}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"
                                     fill="none">
@@ -444,15 +424,15 @@ const fetchData = async () => {
                                 </div>
                             </div>
                             `
-                            : ""}
+                : ""}
                         </div>
                     </div>
                     <div class="single-p-info">
                         <div class="single-p-title">
                             <h1>${product.title}</h1>
                         </div>
-                        ${product.color ? 
-                        `    
+                        ${product.color ?
+                `    
                         <div class="single-p-color">
                             <div class="single-p-color-title-container">
                                 <h4 class="single-p-color-title">
@@ -467,9 +447,9 @@ const fetchData = async () => {
                             </div>
                         </div>
                         ` : ""
-                        }
+            }
                         ${product.warranties ?
-                        `     
+                `     
                         <div class="single-p-gara">
                             <div class="single-p-gara-title-container">
                                 <h4 class="single-p-gara-title">
@@ -478,7 +458,7 @@ const fetchData = async () => {
                             </div>
                             <div class="single-p-gara-options">
                             ${product.warranties.map((warranty) => {
-                                return `
+                    return `
                                 <label class="gara-item">
                                     <input type="radio" name="gara" checked>
                                     <span class="gara-box">
@@ -486,13 +466,13 @@ const fetchData = async () => {
                                     </span>
                                 </label>
                                 `
-                            }).join("")}
+                }).join("")}
                             </div>
                         </div>
                         `
-                        : ""}
-                        ${product.specs ? 
-                        `    
+                : ""}
+                        ${product.specs ?
+                `    
                         <div class="single-p-feature">
                             <div class="single-p-feature-title-container">
                                 <h4 class="single-p-feature-title">
@@ -500,8 +480,8 @@ const fetchData = async () => {
                                 </h4>
                             </div>
                             <div class="single-p-feature-item-container">
-                                ${product.specs.slice(0 , 3).map((spec) => {
-                                    return `
+                                ${product.specs.slice(0, 3).map((spec) => {
+                    return `
                                     <div class="single-p-feature-item">
                                         <span class="single-p-feature-item-title">
                                             ${spec.title}
@@ -511,14 +491,14 @@ const fetchData = async () => {
                                         </span>
                                     </div>
                                     `
-                                }).join("")}
+                }).join("")}
                             </div>
                         </div>
                         `
-                        : ""}
+                : ""}
                     </div>
-                    ${product.rate ? 
-                        `
+                    ${product.rate ?
+                `
                         <div class="single-p-rate">
                         <span>${product.rate}</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -528,7 +508,7 @@ const fetchData = async () => {
                         </svg>
                     </div>
                         `
-                    : ""}
+                : ""}
                     <div class="single-p-action-container">
                         <div class="single-p-action">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -591,14 +571,14 @@ const fetchData = async () => {
                 </div>
                 <aside class="single-aside">
                     ${product.insurance.hasInsurance ?
-                    `   
+                `   
                     <div class="insurance-sidebar">
                         <div class="insurance-sidebar-h">
                             <div class="insurance-sidebar-h-text">
                                 <span>بیمه به کالا اضافه شد</span>
                             </div>
                             <div class="insurance-sidebar-h-info">
-                                <button>
+                                <button onclick="showInsuranceModal()">
                                     نمایش جزیئات
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                                         fill="none">
@@ -620,6 +600,8 @@ const fetchData = async () => {
                                 </button>
                             </div>
                             <div class="price-insurance">
+                                ${product.insurance.insuranceDiscountPercent > 0 ?
+                    `    
                                 <!-- قیمت تخفیف خورده -->
                                 <div class="single-sidebar-price-insurance">
                                     <p class="price">
@@ -644,6 +626,7 @@ const fetchData = async () => {
                                     </p>
                                     <span class="price-insurance-discount">${product.insurance.insuranceDiscountPercent}%</span>
                                 </div>
+                                ` : ""}
 
                                 <!-- قیمت اصلی -->
                                 <div class="single-sidebar-price-insurance-with-discount">
@@ -672,7 +655,7 @@ const fetchData = async () => {
                         </div>
                     </div>
                     `
-                    : "" }
+                : ""}
                     <div class="single-sidebar">
                         <div class="single-sidebar-h">
                             <div class="gara-select">
@@ -717,13 +700,13 @@ const fetchData = async () => {
                                         stroke="#676F71" stroke-width="1.5" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <span>سفید</span>
+                                <span>${product.color.fa}</span>
                             </div>
                         </div>
                         <div class="single-sidebar-b">
                             <!-- قیمت تخفیف خورده -->
                             ${product.discountPercent > 0 ?
-                            `    
+                `    
                             <div class="single-sidebar-main-price">
                                 <p class="price">
                                     <del aria-hidden="true">
@@ -748,8 +731,8 @@ const fetchData = async () => {
                                 <span class="single-p-discount">${product.discountPercent}%</span>
                             </div>
                             `
-                            : ""
-                            }
+                : ""
+            }
 
                             <!-- قیمت اصلی -->
                             <div class="single-sidebar-price-with-discount">
@@ -799,7 +782,7 @@ const fetchData = async () => {
                                     </svg>
                                 </div>
                             </div>
-                            <a href="#" class="single-sidebar-add-to-cart-btn">
+                            <a href="#" class="single-sidebar-add-to-cart-btn" onclick="showAddToBasketModal(event)">
                                 افزودن به سبدخرید
                             </a>
                         </div>
@@ -878,7 +861,7 @@ const fetchData = async () => {
                                         </svg>
                                     </div>
                                 </div>
-                                <a href="#" class="single-sidebar-add-to-cart-btn">
+                                <a href="#" class="single-sidebar-add-to-cart-btn" onclick="showAddToBasketModal(event)">
                                     افزودن به سبدخرید
                                 </a>
                             </div>
@@ -898,29 +881,90 @@ const fetchData = async () => {
             );
         }
 
+        descProduct.innerHTML = product.description;
+
+        productFeature.innerHTML = product.specs.map((spec) => {
+            return `
+            <tr class="product-specs__row">
+                <th scope="row" class="product-specs__label">
+                ${spec.title}
+                </th>
+                <td class="product-specs__value">
+                ${spec.value}
+                </td>
+             </tr>
+            `
+        }).join("");
+
+        priceInsuranceModal.insertAdjacentHTML("beforeend",
+            `
+               ${product.insurance.insuranceDiscountPercent > 0 ?
+                `
+               <div class="single-sidebar-price-insurance">
+                    <p class="price">
+                        <del aria-hidden="true">
+                            <span class="woocommerce-Price-amount amount">
+                                <bdi>${product.insurance.insurancePrice.toLocaleString()}
+                                    <span class="woocommerce-Price-currencySymbol">
+                                        تومان
+                                    </span>
+                                </bdi>
+                            </span>
+                        </del>
+                        <ins aria-hidden="true">
+                            <span class="woocommerce-Price-amount amount">
+                                <bdi>${(product.insurance.insurancePrice - (product.insurance.insurancePrice * (product.insurance.insuranceDiscountPercent / 100))).toLocaleString()}
+                                    <span class="woocommerce-Price-currencySymbol">
+                                        تومان
+                                    </span>
+                                </bdi>
+                            </span>
+                        </ins>
+                    </p>
+                    ${product.insurance.insuranceDiscountPercent > 0 ? `<span class="price-insurance-discount">${product.insurance.insuranceDiscountPercent}%</span>` : ""}
+                </div>
+                ` : ""}
+                <div class="single-sidebar-price-insurance-with-discount">
+                    <p class="price">
+                        <del aria-hidden="true">
+                            <span class="woocommerce-Price-amount amount">
+                                <bdi>${product.insurance.insurancePrice.toLocaleString()}
+                                    <span class="woocommerce-Price-currencySymbol">
+                                        تومان
+                                    </span>
+                                </bdi>
+                            </span>
+                        </del>
+                        <ins aria-hidden="true">
+                            <span class="woocommerce-Price-amount amount">
+                                <bdi>${(product.insurance.insurancePrice - (product.insurance.insurancePrice * (product.insurance.insuranceDiscountPercent / 100))).toLocaleString()}
+                                    <span class="woocommerce-Price-currencySymbol">
+                                        تومان
+                                    </span>
+                                </bdi>
+                            </span>
+                        </ins>
+                    </p>
+                </div>
+            `
+        )
+
+        addBasketModalImg.src = product.images[0];
+
+        addBasketModalTitle.innerText = product.title;
+
+        if (product.discountPercent) {
+            addBasketModalPrice.innerText = (product.price - (product.price * (product.discountPercent / 100))).toLocaleString()
+        } else {
+            addBasketModalPrice.innerText = (product.price).toLocaleString();
+        }
+
     } catch (error) {
 
     }
 }
 
-/* const showAddToBasketModal = () => {
-    addToBasketModal.classList.add("active")
-}
-
-const closeAddToBasketModal = (e) => {
-    addToBasketModal.classList.remove("active");
-    if (e.key === "Escape" && modal.classList.contains("active")) {
-    }
-
-    if (e.target === addToBasketModal) {
-        closeAddToBasketModal();
-    }
-}
-
-const showCount = () => {
-    count.classList.add("active");
-}
-
+/* Tabs Switcher */
 specTitles.forEach((tabTitle, index) => {
     tabTitle.addEventListener("click", function () {
         document.querySelector(".spec-title.active")?.classList.remove("active");
@@ -931,14 +975,46 @@ specTitles.forEach((tabTitle, index) => {
         }
     });
 });
- */
 
+/* Show Modal */
+window.showAddToBasketModal = function (event) {
+    const count = document.querySelector(".count");
+
+    event.preventDefault();
+    addBasketModal.classList.add("active");
+    count.classList.add("active");
+}
+
+/* Hide Modal */
+const closeAddToBasketModal = () => {
+    addBasketModal.classList.remove("active");
+}
+
+/* Show Insurance Modal */
+window.showInsuranceModal = function () {
+    loader();
+    insuranceModal.classList.add("active");
+}
+
+/* Hide Insurance Modal */
+const hideInsuranceModal = () => {
+    insuranceModal.classList.remove("active");
+}
+
+/* Loader */
+const loader = () => {
+    Loader.classList.add("active");
+    setTimeout(() => {
+        Loader.classList.remove("active");
+    }, 1000);
+}
 
 window.addEventListener("load", fetchData);
-
-
-/* closeAddToBasketModalIcon.addEventListener("click", closeAddToBasketModal);
-document.addEventListener("keydown", closeAddToBasketModal);
-addToBasketModal.addEventListener('click', closeAddToBasketModal);
-addToBasketBtn.addEventListener("click", showAddToBasketModal);
-addToBasketBtn.addEventListener("click", showCount); */
+closeAddBasketModalIcon.addEventListener("click", closeAddToBasketModal);
+closeInsuranceModal.addEventListener("click", hideInsuranceModal)
+window.addEventListener("keyup", (event) => {
+    if (event.key === "Escape") {
+        closeAddToBasketModal()
+        hideInsuranceModal()
+    }
+});
